@@ -1,1 +1,0 @@
-# segoldma.github.io
