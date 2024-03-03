@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Exploring Washington, D.C. Service Requests (2016)E"
+title: "Exploring Washington, D.C. Service Requests (2016)"
 date: 2017-10-27 00:00:00 -0000
 categories: R
 ---
