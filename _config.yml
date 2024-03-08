@@ -18,13 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: tbd
-email: your-email@example.com
+title: Seth dot cool
+email: seth@seth.cool
 description: >
   tbd
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: tbd
+twitter_username: segoldma
 github_username:  segoldma
 
 # Build settings
