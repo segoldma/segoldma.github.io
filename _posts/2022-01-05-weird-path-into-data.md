@@ -2,7 +2,6 @@
 layout: post
 title: "A Pretty Weird Path into Data"
 date: 2022-01-05 00:00:00 -0000
-categories: career, learning
 ---
 
 Sometime last year, I was interviewing for a lead analyst role at a really cool start-up[^1]. I didn't get the job, but during one of the rounds I got to speak with an executive who while scanning my LinkedIn during the call said something like:

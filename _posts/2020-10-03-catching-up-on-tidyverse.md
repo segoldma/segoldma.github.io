@@ -240,9 +240,9 @@ storm_sample %>%
 | -1       |
 
 
-## Embracing (i.e., {{var}})  
+## Embracing (i.e., \{\{ var \}\})  
 
-Using **{{ double curly brace }}** syntax ([pronounced ‘curly curly’](https://www.tidyverse.org/blog/2019/06/rlang-0-4-0/#a-simpler-interpolation-pattern-with)) allows users to provide a variable that can be passed into a function that uses data masking or tidy selection. This helps make functions much more extensible to many types of inputs.
+Using **\{\{ double curly brace \}\}** syntax ([pronounced ‘curly curly’](https://www.tidyverse.org/blog/2019/06/rlang-0-4-0/#a-simpler-interpolation-pattern-with)) allows users to provide a variable that can be passed into a function that uses data masking or tidy selection. This helps make functions much more extensible to many types of inputs.
 
 <script src="https://gist.github.com/segoldma/c5821241398b3e1f459ef92a8a9037a2.js"></script>
 
@@ -333,7 +333,7 @@ windy_years %>%
 
 ## Wrapping up  
 
-Though I expect to benefit from all of these enhancements, I think tidy selection will have the most immediate impact. Many of my analysis workflows involve transforming large datasets with many columns into easier-to-work-with tables with the columns that are relevant to my analysis. Tidy selection makes it possible to do this with limited hard-coding. I also expect to use across() in place of repetitive code where I calculate measures on multiple columns. Finally, I think I’ll be able to make many of my analysis scripts more concise, combining many existing functions into fewer generalized functions – all thanks to my new friend `{{ curly curly }}` syntax.  
+Though I expect to benefit from all of these enhancements, I think tidy selection will have the most immediate impact. Many of my analysis workflows involve transforming large datasets with many columns into easier-to-work-with tables with the columns that are relevant to my analysis. Tidy selection makes it possible to do this with limited hard-coding. I also expect to use across() in place of repetitive code where I calculate measures on multiple columns. Finally, I think I’ll be able to make many of my analysis scripts more concise, combining many existing functions into fewer generalized functions – all thanks to my new friend `\{\{ curly curly \}\}` syntax.  
 
 
 
