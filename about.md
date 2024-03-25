@@ -12,4 +12,4 @@ I wrote an extended retrospective of my path into data [here](../2022/01/04/weir
 
 In recent years, the blog has gone mostly dormant as I've stopped sharing analyses. This is largely because I've been lucky to become a *real* professional data practitioner, and no longer feel as much pressure to maintain a public portfolio. 
 
-As of early 2024, I'm migrating this blog from the `blogdown` R package, to Jekyll + GitHub Pages. I'm hopeful to start publishing again, but will likely focus more on topics of analytics engineering and SQL various SQL craft. 
+As of early 2024, I'm migrating this blog from the `blogdown` R package, to Jekyll + GitHub Pages. I'm hopeful to start publishing again, but will likely focus more on topics of analytics engineering and various SQL craft. 
