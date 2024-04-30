@@ -61,7 +61,7 @@ There are a growing number of tools and resources that make this vision possible
 I imagine combining these into datasets that provide answers to the following questions, both to identify areas of an existing project that are most taxing from a cost and maintainability standpoint, but more importantly, how taxing a prospective change is expected to be before it’s productionalized. These questions are not-so-unlike those posed by the Red Line Planners in the map above!
 
 - Are there indicators of suboptimal query design (unnecessary table scans, cartesian joins)?
--  What are the maintenance costs of a new model from, given its dependencies
+-  What are the maintenance costs of a new model from, given its dependencies?
 - How far downstream or “right” in the dbt project a model sits, and which dependencies are most responsible (i.e., a [shift-lefted](https://en.wikipedia.org/wiki/Shift-left_testing)ness score metric, a 0-100 scale where a low score describes a model that runs early in the DAG, and a high score represents one that runs at the very end).
 - Which critical downstream datasets does a given model serve? And how (i.e., which columns)? 
 - How do we know which downstream datasets are most critical (i.e., how many people are using them, and in which contexts) 
