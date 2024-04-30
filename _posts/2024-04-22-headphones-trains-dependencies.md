@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Headphones, Railroads, and ref statements: the chaotic world of model dependencies"
+title: "Headphones, Railroads, and ref Statements: the chaotic world of model dependencies"
 date: 2024-04-29 00:00:00 -0000
 ---
 
@@ -45,7 +45,7 @@ The obvious counterpoint to this is that software development costs are marginal
 
 My experience has been that this is mostly true: it is often feasible and sometimes fun to refactor a DAG to unlock warehouse computing throughput and modeling flexibility, but it’s rarely feasible or fun to get executives to prioritize this type of work over net-new or novel feature development.
 
-## How we might make tangledness more predictable
+## Making the tangledness more predictable
 
 The irony isn’t lost on me that the analytics engineering job function, whose mission it is to create trusted sources of measurement and analysis, is often unable to measure the impacts of the things it builds on the things it’s previously built.
 
