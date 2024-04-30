@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Headphones, Railroads, and ref statements: the chaotic world of model dependencies"
+title: "Headphones, Railroads, and ref Statements: the chaotic world of model dependencies"
 date: 2024-04-29 00:00:00 -0000
 ---
 
@@ -45,7 +45,7 @@ The obvious counterpoint to this is that software development costs are marginal
 
 My experience has been that this is mostly true: it is often feasible and sometimes fun to refactor a DAG to unlock warehouse computing throughput and modeling flexibility, but it’s rarely feasible or fun to get executives to prioritize this type of work over net-new or novel feature development.
 
-## How we might make tangledness more predictable
+## Making the tangledness more predictable
 
 The irony isn’t lost on me that the analytics engineering job function, whose mission it is to create trusted sources of measurement and analysis, is often unable to measure the impacts of the things it builds on the things it’s previously built.
 
@@ -61,7 +61,7 @@ There are a growing number of tools and resources that make this vision possible
 I imagine combining these into datasets that provide answers to the following questions, both to identify areas of an existing project that are most taxing from a cost and maintainability standpoint, but more importantly, how taxing a prospective change is expected to be before it’s productionalized. These questions are not-so-unlike those posed by the Red Line Planners in the map above!
 
 - Are there indicators of suboptimal query design (unnecessary table scans, cartesian joins)?
--  What are the maintenance costs of a new model from, given its dependencies
+-  What are the maintenance costs of a new model from, given its dependencies?
 - How far downstream or “right” in the dbt project a model sits, and which dependencies are most responsible (i.e., a [shift-lefted](https://en.wikipedia.org/wiki/Shift-left_testing)ness score metric, a 0-100 scale where a low score describes a model that runs early in the DAG, and a high score represents one that runs at the very end).
 - Which critical downstream datasets does a given model serve? And how (i.e., which columns)? 
 - How do we know which downstream datasets are most critical (i.e., how many people are using them, and in which contexts) 
