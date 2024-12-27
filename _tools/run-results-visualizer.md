@@ -4,6 +4,7 @@ date: 2024-12-27
 description: "An interactive visualization tool for analyzing dbt model execution times"
 tags: ["dbt", "data", "visualization"]
 collection: tools
+emoji: 📊
 ---
 
 # dbt Run Results Visualizer

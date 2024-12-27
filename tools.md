@@ -5,7 +5,7 @@ permalink: /tools/
 ---
 
 {% for tool in site.tools %}
-## [{{ tool.title }}]({{ tool.url | relative_url }})
+###  {{tool.emoji}} [{{ tool.title }}]({{ tool.url | relative_url }})
 
 {{ tool.description }}
 
