@@ -51,3 +51,24 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+collections:
+  tools:
+    output: true
+    permalink: /tools/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "tools"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
