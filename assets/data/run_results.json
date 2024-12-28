@@ -60,10 +60,10 @@
       },
       "message": "SUCCESS 1",
       "failures": null,
-      "unique_id": "model.dbt_corporate.int_blob_corporate_accounts_typed_custom_fields",
+      "unique_id": "model.dbt_corporate.int_blob_corporate_companies_bespoke_fields",
       "compiled": true,
       "compiled_code": "",
-      "relation_name": "dbt_development_db.dbt_local.int_blob_corporate_accounts_typed_custom_fields"
+      "relation_name": "dbt_development_db.dbt_local.int_blob_corporate_companies_bespoke_fields"
     },
     {
       "status": "success",
@@ -89,10 +89,10 @@
       },
       "message": "SUCCESS 1",
       "failures": null,
-      "unique_id": "model.dbt_corporate.int_blob_corporate_contacts_typed_custom_fields",
+      "unique_id": "model.dbt_corporate.int_blob_corporate_contacts_bespoke_fields",
       "compiled": true,
       "compiled_code": "",
-      "relation_name": "dbt_development_db.dbt_local.int_blob_corporate_contacts_typed_custom_fields"
+      "relation_name": "dbt_development_db.dbt_local.int_blob_corporate_contacts_bespoke_fields"
     },
     {
       "status": "success",
@@ -147,10 +147,10 @@
       },
       "message": "SUCCESS 1",
       "failures": null,
-      "unique_id": "model.dbt_corporate.stg_crm__accounts",
+      "unique_id": "model.dbt_corporate.stg_crm__companies",
       "compiled": true,
       "compiled_code": "",
-      "relation_name": "dbt_development_db.dbt_local.stg_crm__accounts"
+      "relation_name": "dbt_development_db.dbt_local.stg_crm__companies"
     },
     {
       "status": "success",
@@ -379,7 +379,7 @@
       },
       "message": null,
       "failures": 0,
-      "unique_id": "test.dbt_corporate.not_null_int_blob_corporate_accounts_typed_custom_fields_blob_account_id.e6fc62a8ab",
+      "unique_id": "test.dbt_corporate.not_null_int_blob_corporate_companies_bespoke_fields_blob_account_id.e6fc62a8ab",
       "compiled": true,
       "compiled_code": "",
       "relation_name": null
@@ -466,7 +466,7 @@
       },
       "message": null,
       "failures": 0,
-      "unique_id": "test.dbt_corporate.unique_int_blob_corporate_accounts_typed_custom_fields_blob_account_id.5e4138e634",
+      "unique_id": "test.dbt_corporate.unique_int_blob_corporate_companies_bespoke_fields_blob_account_id.5e4138e634",
       "compiled": true,
       "compiled_code": "",
       "relation_name": null
@@ -524,7 +524,7 @@
       },
       "message": null,
       "failures": 0,
-      "unique_id": "test.dbt_corporate.unique_int_blob_corporate_contacts_typed_custom_fields_blob_contact_id.dde25f6686",
+      "unique_id": "test.dbt_corporate.unique_int_blob_corporate_contacts_bespoke_fields_blob_contact_id.dde25f6686",
       "compiled": true,
       "compiled_code": "",
       "relation_name": null
@@ -553,7 +553,7 @@
       },
       "message": null,
       "failures": 0,
-      "unique_id": "test.dbt_corporate.not_null_int_blob_corporate_contacts_typed_custom_fields_blob_contact_id.0865feb522",
+      "unique_id": "test.dbt_corporate.not_null_int_blob_corporate_contacts_bespoke_fields_blob_contact_id.0865feb522",
       "compiled": true,
       "compiled_code": "",
       "relation_name": null
@@ -640,7 +640,7 @@
       },
       "message": null,
       "failures": 0,
-      "unique_id": "test.dbt_corporate.accepted_values_stg_crm__accounts_is_deleted__False__False.dd9a5d7d34",
+      "unique_id": "test.dbt_corporate.accepted_values_stg_crm__companies_is_deleted__False__False.dd9a5d7d34",
       "compiled": true,
       "compiled_code": "",
       "relation_name": null
@@ -727,7 +727,7 @@
       },
       "message": null,
       "failures": 0,
-      "unique_id": "test.dbt_corporate.unique_stg_crm__accounts_id.92f5e61253",
+      "unique_id": "test.dbt_corporate.unique_stg_crm__companies_id.92f5e61253",
       "compiled": true,
       "compiled_code": "",
       "relation_name": null
@@ -756,7 +756,7 @@
       },
       "message": null,
       "failures": 0,
-      "unique_id": "test.dbt_corporate.not_null_stg_crm__accounts_id.8f521e6e88",
+      "unique_id": "test.dbt_corporate.not_null_stg_crm__companies_id.8f521e6e88",
       "compiled": true,
       "compiled_code": "",
       "relation_name": null
@@ -1335,10 +1335,10 @@
       },
       "message": "SUCCESS 1",
       "failures": null,
-      "unique_id": "model.dbt_corporate.int_blob_corporate_customer_data_custom_field_accounts",
+      "unique_id": "model.dbt_corporate.int_blob_corporate_customer_data_custom_field_companies",
       "compiled": true,
       "compiled_code": "",
-      "relation_name": "dbt_development_db.dbt_local.int_blob_corporate_customer_data_custom_field_accounts"
+      "relation_name": "dbt_development_db.dbt_local.int_blob_corporate_customer_data_custom_field_companies"
     },
     {
       "status": "success",
@@ -1857,7 +1857,7 @@
       },
       "message": null,
       "failures": 0,
-      "unique_id": "test.dbt_corporate.not_null_int_blob_corporate_customer_data_custom_field_accounts_blob_account_id.bbdb32b725",
+      "unique_id": "test.dbt_corporate.not_null_int_blob_corporate_customer_data_custom_field_companies_blob_account_id.bbdb32b725",
       "compiled": true,
       "compiled_code": "",
       "relation_name": null
@@ -1886,7 +1886,7 @@
       },
       "message": null,
       "failures": 0,
-      "unique_id": "test.dbt_corporate.unique_int_blob_corporate_customer_data_custom_field_accounts_blob_account_id.1c9a711975",
+      "unique_id": "test.dbt_corporate.unique_int_blob_corporate_customer_data_custom_field_companies_blob_account_id.1c9a711975",
       "compiled": true,
       "compiled_code": "",
       "relation_name": null
@@ -2901,10 +2901,10 @@
       },
       "message": "SUCCESS 1",
       "failures": null,
-      "unique_id": "model.dbt_corporate.int_free_contact_company_accounts",
+      "unique_id": "model.dbt_corporate.int_free_contact_company_companies",
       "compiled": true,
       "compiled_code": "",
-      "relation_name": "dbt_development_db.dbt_local.int_free_contact_company_accounts"
+      "relation_name": "dbt_development_db.dbt_local.int_free_contact_company_companies"
     },
     {
       "status": "success",
@@ -3017,7 +3017,7 @@
       },
       "message": null,
       "failures": 0,
-      "unique_id": "test.dbt_corporate.unique_int_free_contact_company_accounts_account_id.402ce63502",
+      "unique_id": "test.dbt_corporate.unique_int_free_contact_company_companies_account_id.402ce63502",
       "compiled": true,
       "compiled_code": "",
       "relation_name": null
@@ -3191,10 +3191,10 @@
       },
       "message": "SUCCESS 1",
       "failures": null,
-      "unique_id": "model.dbt_corporate.int_opportunities_and_accounts",
+      "unique_id": "model.dbt_corporate.int_opportunities_and_companies",
       "compiled": true,
       "compiled_code": "",
-      "relation_name": "dbt_development_db.dbt_local.int_opportunities_and_accounts"
+      "relation_name": "dbt_development_db.dbt_local.int_opportunities_and_companies"
     },
     {
       "status": "pass",
@@ -3220,7 +3220,7 @@
       },
       "message": null,
       "failures": 0,
-      "unique_id": "test.dbt_corporate.not_null_int_opportunities_and_accounts_sfdc_workspace_or_account_id.f580038987",
+      "unique_id": "test.dbt_corporate.not_null_int_opportunities_and_companies_sfdc_workspace_or_account_id.f580038987",
       "compiled": true,
       "compiled_code": "",
       "relation_name": null
@@ -3249,7 +3249,7 @@
       },
       "message": null,
       "failures": 0,
-      "unique_id": "test.dbt_corporate.dbt_utils_unique_combination_of_columns_int_opportunities_and_accounts_sfdc_workspace_or_account_id__sfdc_opportunity_id__is_parent_account.24fea14070",
+      "unique_id": "test.dbt_corporate.dbt_utils_unique_combination_of_columns_int_opportunities_and_companies_sfdc_workspace_or_account_id__sfdc_opportunity_id__is_parent_account.24fea14070",
       "compiled": true,
       "compiled_code": "",
       "relation_name": null
