@@ -7,11 +7,21 @@ document.getElementById('fileInput').addEventListener('change', handleFileSelect
 // Add demo button handler with toggle behavior
 const demoButton = document.getElementById('demoButton');
 let demoDataLoaded = false;
-let demoData = null;
 
-demoButton.addEventListener('click', async () => {
+demoButton.addEventListener('click', () => {
     if (!demoDataLoaded) {
-        await loadDemoData();
+        try {
+            const demoData = window.DEMO_DATA;
+            if (!demoData || !demoData.results) {
+                throw new Error('Invalid demo data format');
+            }
+            processRunResults(demoData);
+            demoDataLoaded = true;
+            demoButton.textContent = 'Hide Example';
+        } catch (error) {
+            console.error('Error processing demo data:', error);
+            alert('Failed to load example data. Please check the console for details.');
+        }
     } else {
         hideExample();
     }
@@ -57,25 +67,6 @@ function handleFileSelect(event) {
             processRunResults(JSON.parse(e.target.result));
         };
         reader.readAsText(file);
-    }
-}
-
-async function loadDemoData() {
-    try {
-        if (!demoData) {
-            const demoUrl = demoButton.getAttribute('data-demo-url');
-            const response = await fetch(demoUrl);
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
-            demoData = await response.json();
-        }
-        processRunResults(demoData);
-        demoDataLoaded = true;
-        demoButton.textContent = 'Hide Example';
-    } catch (error) {
-        console.error('Error loading demo data:', error);
-        alert('Failed to load example data. Please try again later.');
     }
 }
 
