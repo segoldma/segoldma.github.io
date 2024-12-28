@@ -4,6 +4,19 @@ document.getElementById('uploadButton').addEventListener('click', () => {
 
 document.getElementById('fileInput').addEventListener('change', handleFileSelect);
 
+// Add demo button handler with toggle behavior
+const demoButton = document.getElementById('demoButton');
+let demoDataLoaded = false;
+let demoData = null;
+
+demoButton.addEventListener('click', async () => {
+    if (!demoDataLoaded) {
+        await loadDemoData();
+    } else {
+        hideExample();
+    }
+});
+
 // Add drag and drop handlers
 const dropZone = document.getElementById('dropZone');
 
@@ -27,7 +40,10 @@ dropZone.addEventListener('drop', (e) => {
     const file = e.dataTransfer.files[0];
     if (file) {
         const reader = new FileReader();
-        reader.onload = (e) => processRunResults(JSON.parse(e.target.result));
+        reader.onload = (e) => {
+            hideExample(); // Hide example if showing
+            processRunResults(JSON.parse(e.target.result));
+        };
         reader.readAsText(file);
     }
 });
@@ -36,9 +52,32 @@ function handleFileSelect(event) {
     const file = event.target.files[0];
     if (file) {
         const reader = new FileReader();
-        reader.onload = (e) => processRunResults(JSON.parse(e.target.result));
+        reader.onload = (e) => {
+            hideExample(); // Hide example if showing
+            processRunResults(JSON.parse(e.target.result));
+        };
         reader.readAsText(file);
     }
+}
+
+async function loadDemoData() {
+    try {
+        if (!demoData) {
+            const response = await fetch('/assets/data/run_results.json');
+            demoData = await response.json();
+        }
+        processRunResults(demoData);
+        demoDataLoaded = true;
+        demoButton.textContent = 'Hide Example';
+    } catch (error) {
+        console.error('Error loading demo data:', error);
+    }
+}
+
+function hideExample() {
+    document.getElementById('chart-container').innerHTML = '';
+    demoButton.textContent = 'Show Example';
+    demoDataLoaded = false;
 }
 
 function formatDuration(seconds) {
