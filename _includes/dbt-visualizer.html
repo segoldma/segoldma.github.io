@@ -5,7 +5,7 @@
             <button id="uploadButton" class="upload-button">Choose run_results.json</button>
             <div class="upload-text">or drag and drop your file here</div>
             <div class="demo-controls">
-                <button id="demoButton" class="secondary-button" data-demo-url="{{ '/assets/data/run_results.json' | relative_url }}">Show Example</button>
+                <button id="demoButton" class="secondary-button">Show Example</button>
             </div>
         </div>
     </div>
@@ -16,6 +16,11 @@
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 <script src="https://d3js.org/d3.v7.min.js"></script>
+
+<!-- Include demo data -->
+<script src="{{ '/assets/js/demo-data.js' | relative_url }}"></script>
+
+<!-- Include the visualization code -->
 <script src="{{ '/assets/js/visualizer.js' | relative_url }}"></script>
 <link rel="stylesheet" href="{{ '/assets/css/visualizer.css' | relative_url }}">
 
