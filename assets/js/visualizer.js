@@ -63,7 +63,11 @@ function handleFileSelect(event) {
 async function loadDemoData() {
     try {
         if (!demoData) {
-            const response = await fetch('/assets/data/run_results.json');
+            const demoUrl = demoButton.getAttribute('data-demo-url');
+            const response = await fetch(demoUrl);
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
             demoData = await response.json();
         }
         processRunResults(demoData);
@@ -71,6 +75,7 @@ async function loadDemoData() {
         demoButton.textContent = 'Hide Example';
     } catch (error) {
         console.error('Error loading demo data:', error);
+        alert('Failed to load example data. Please try again later.');
     }
 }
 
