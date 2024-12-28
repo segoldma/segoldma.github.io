@@ -1,0 +1,6216 @@
+{
+  "metadata": {
+    "dbt_schema_version": "https://schemas.getdbt.com/dbt/run-results/v6.json",
+    "dbt_version": "1.8.3",
+    "generated_at": "2024-12-28T18:43:42.191339Z",
+    "invocation_id": "53a61b93-065c-440b-81ce-e0ef9be2d238",
+    "env": {}
+  },
+  "results": [
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:09.862355Z",
+          "completed_at": "2024-12-28T18:41:09.882305Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:09.893245Z",
+          "completed_at": "2024-12-28T18:41:11.871334Z"
+        }
+      ],
+      "thread_id": "Thread-2 (worker)",
+      "execution_time": 2.1669838428497314,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-043a-0000-c67d116d5bce"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.fct_client_events_events",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.fct_client_events_events"
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:09.864405Z",
+          "completed_at": "2024-12-28T18:41:09.882558Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:09.895851Z",
+          "completed_at": "2024-12-28T18:41:12.062698Z"
+        }
+      ],
+      "thread_id": "Thread-3 (worker)",
+      "execution_time": 2.3459179401397705,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-043a-0000-c67d116d5bd2"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.int_blob_corporate_accounts_typed_custom_fields",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.int_blob_corporate_accounts_typed_custom_fields"
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:09.866961Z",
+          "completed_at": "2024-12-28T18:41:09.889057Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:09.897371Z",
+          "completed_at": "2024-12-28T18:41:12.065925Z"
+        }
+      ],
+      "thread_id": "Thread-4 (worker)",
+      "execution_time": 2.3981680870056152,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0407-0000-c67d116d6072"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.int_blob_corporate_contacts_typed_custom_fields",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.int_blob_corporate_contacts_typed_custom_fields"
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:09.854094Z",
+          "completed_at": "2024-12-28T18:41:09.876761Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:09.882792Z",
+          "completed_at": "2024-12-28T18:41:14.015365Z"
+        }
+      ],
+      "thread_id": "Thread-1 (worker)",
+      "execution_time": 4.322733163833618,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0501-0000-c67d116d703a"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.dim_blob_promos_plans",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.dim_blob_promos_plans"
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:09.871674Z",
+          "completed_at": "2024-12-28T18:41:09.893079Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:09.979889Z",
+          "completed_at": "2024-12-28T18:41:14.117141Z"
+        }
+      ],
+      "thread_id": "Thread-6 (worker)",
+      "execution_time": 4.4056127071380615,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-043a-0000-c67d116d5be6"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.stg_crm__accounts",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.stg_crm__accounts"
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:12.256068Z",
+          "completed_at": "2024-12-28T18:41:12.259327Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:12.259525Z",
+          "completed_at": "2024-12-28T18:41:14.291019Z"
+        }
+      ],
+      "thread_id": "Thread-4 (worker)",
+      "execution_time": 2.1626062393188477,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0407-0000-c67d116d60a2"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.stg_crm__user_roles",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.stg_crm__user_roles"
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:09.869479Z",
+          "completed_at": "2024-12-28T18:41:09.892905Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:09.899333Z",
+          "completed_at": "2024-12-28T18:41:14.417484Z"
+        }
+      ],
+      "thread_id": "Thread-5 (worker)",
+      "execution_time": 4.844667196273804,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0501-0000-c67d116d703e"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.int_blob_promos",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.int_blob_promos"
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:12.205465Z",
+          "completed_at": "2024-12-28T18:41:12.249996Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:12.250832Z",
+          "completed_at": "2024-12-28T18:41:15.347780Z"
+        }
+      ],
+      "thread_id": "Thread-3 (worker)",
+      "execution_time": 3.3397059440612793,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0407-0000-c67d116d609e"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.stg_crm__tasks",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.stg_crm__tasks"
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:09.876970Z",
+          "completed_at": "2024-12-28T18:41:09.898936Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:09.984360Z",
+          "completed_at": "2024-12-28T18:41:15.559048Z"
+        }
+      ],
+      "thread_id": "Thread-7 (worker)",
+      "execution_time": 5.853165626525879,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0501-0000-c67d116d706a"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.stg_crm__corporate_workspace",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.stg_crm__corporate_workspace"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:14.703910Z",
+          "completed_at": "2024-12-28T18:41:14.712855Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:14.713089Z",
+          "completed_at": "2024-12-28T18:41:15.569276Z"
+        }
+      ],
+      "thread_id": "Thread-5 (worker)",
+      "execution_time": 1.0872478485107422,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-043a-0000-c67d116d5c2a"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_fct_client_events_events_event_at.00b0ea9638",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:15.547521Z",
+          "completed_at": "2024-12-28T18:41:15.560733Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:15.561364Z",
+          "completed_at": "2024-12-28T18:41:16.381140Z"
+        }
+      ],
+      "thread_id": "Thread-3 (worker)",
+      "execution_time": 1.0002827644348145,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-043a-0000-c67d116d5c3a"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_recently_fct_client_events_events_uuid__7__event_at.f158257a4b",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:09.879439Z",
+          "completed_at": "2024-12-28T18:41:09.898795Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:09.982477Z",
+          "completed_at": "2024-12-28T18:41:16.654655Z"
+        }
+      ],
+      "thread_id": "Thread-8 (worker)",
+      "execution_time": 6.970798969268799,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0407-0000-c67d116d6076"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.stg_crm__contacts",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.stg_crm__contacts"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:15.792685Z",
+          "completed_at": "2024-12-28T18:41:15.798651Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:15.798951Z",
+          "completed_at": "2024-12-28T18:41:16.702692Z"
+        }
+      ],
+      "thread_id": "Thread-5 (worker)",
+      "execution_time": 1.1165897846221924,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0407-0000-c67d116d6116"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_int_blob_corporate_accounts_typed_custom_fields_blob_account_id.e6fc62a8ab",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:15.709492Z",
+          "completed_at": "2024-12-28T18:41:15.716245Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:15.716667Z",
+          "completed_at": "2024-12-28T18:41:16.797493Z"
+        }
+      ],
+      "thread_id": "Thread-7 (worker)",
+      "execution_time": 1.2354052066802979,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0407-0000-c67d116d6112"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.unique_recently_fct_client_events_events_uuid__7__event_at.5f61e19523",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:14.177233Z",
+          "completed_at": "2024-12-28T18:41:14.187739Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:14.188291Z",
+          "completed_at": "2024-12-28T18:41:17.216190Z"
+        }
+      ],
+      "thread_id": "Thread-1 (worker)",
+      "execution_time": 3.201259136199951,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0407-0000-c67d116d60da"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.stg_crm__users",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.stg_crm__users"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:16.550154Z",
+          "completed_at": "2024-12-28T18:41:16.561711Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:16.562052Z",
+          "completed_at": "2024-12-28T18:41:17.612729Z"
+        }
+      ],
+      "thread_id": "Thread-3 (worker)",
+      "execution_time": 1.2387909889221191,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0501-0000-c67d116d70d2"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.unique_int_blob_corporate_accounts_typed_custom_fields_blob_account_id.5e4138e634",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:16.945924Z",
+          "completed_at": "2024-12-28T18:41:16.950596Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:16.950982Z",
+          "completed_at": "2024-12-28T18:41:18.002291Z"
+        }
+      ],
+      "thread_id": "Thread-7 (worker)",
+      "execution_time": 1.2031009197235107,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-043a-0000-c67d116d5c6a"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_dim_blob_promos_plans_workspace_product_info_quantity_key.722df92c0e",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:16.911317Z",
+          "completed_at": "2024-12-28T18:41:16.916931Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:16.917167Z",
+          "completed_at": "2024-12-28T18:41:18.015702Z"
+        }
+      ],
+      "thread_id": "Thread-5 (worker)",
+      "execution_time": 1.2794249057769775,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0501-0000-c67d116d70e2"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.unique_int_blob_corporate_contacts_typed_custom_fields_blob_contact_id.dde25f6686",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:16.829059Z",
+          "completed_at": "2024-12-28T18:41:16.838013Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:16.838460Z",
+          "completed_at": "2024-12-28T18:41:18.038642Z"
+        }
+      ],
+      "thread_id": "Thread-8 (worker)",
+      "execution_time": 1.3934457302093506,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0407-0000-c67d116d6142"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_int_blob_corporate_contacts_typed_custom_fields_blob_contact_id.0865feb522",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:14.260834Z",
+          "completed_at": "2024-12-28T18:41:14.697653Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:14.698198Z",
+          "completed_at": "2024-12-28T18:41:18.233405Z"
+        }
+      ],
+      "thread_id": "Thread-6 (worker)",
+      "execution_time": 4.14049220085144,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0407-0000-c67d116d60e6"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.util_days",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.util_days"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:17.382285Z",
+          "completed_at": "2024-12-28T18:41:17.515179Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:17.516784Z",
+          "completed_at": "2024-12-28T18:41:18.519771Z"
+        }
+      ],
+      "thread_id": "Thread-1 (worker)",
+      "execution_time": 1.2762179374694824,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0501-0000-c67d116d70ee"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.unique_dim_blob_promos_plans_workspace_product_info_quantity_key.6950869234",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:17.791725Z",
+          "completed_at": "2024-12-28T18:41:17.805835Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:17.806376Z",
+          "completed_at": "2024-12-28T18:41:18.985762Z"
+        }
+      ],
+      "thread_id": "Thread-3 (worker)",
+      "execution_time": 1.393521785736084,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-043a-0000-c67d116d5c7a"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.accepted_values_stg_crm__accounts_is_deleted__False__False.dd9a5d7d34",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:18.403413Z",
+          "completed_at": "2024-12-28T18:41:18.412154Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:18.412607Z",
+          "completed_at": "2024-12-28T18:41:19.219535Z"
+        }
+      ],
+      "thread_id": "Thread-6 (worker)",
+      "execution_time": 0.984853982925415,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-043a-0000-c67d116d5c92"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.unique_stg_crm__user_roles_id.e353c27cc1",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:18.223303Z",
+          "completed_at": "2024-12-28T18:41:18.227450Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:18.228121Z",
+          "completed_at": "2024-12-28T18:41:19.288130Z"
+        }
+      ],
+      "thread_id": "Thread-8 (worker)",
+      "execution_time": 1.2334649562835693,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0407-0000-c67d116d6176"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_stg_crm__user_roles_id.9653c4cf16",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:18.192862Z",
+          "completed_at": "2024-12-28T18:41:18.199880Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:18.200231Z",
+          "completed_at": "2024-12-28T18:41:19.401894Z"
+        }
+      ],
+      "thread_id": "Thread-5 (worker)",
+      "execution_time": 1.3779819011688232,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0407-0000-c67d116d6172"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.unique_stg_crm__accounts_id.92f5e61253",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:18.150924Z",
+          "completed_at": "2024-12-28T18:41:18.156260Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:18.156608Z",
+          "completed_at": "2024-12-28T18:41:19.446360Z"
+        }
+      ],
+      "thread_id": "Thread-7 (worker)",
+      "execution_time": 1.4598031044006348,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0407-0000-c67d116d616e"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_stg_crm__accounts_id.8f521e6e88",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:18.666352Z",
+          "completed_at": "2024-12-28T18:41:18.674556Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:18.674898Z",
+          "completed_at": "2024-12-28T18:41:19.751384Z"
+        }
+      ],
+      "thread_id": "Thread-1 (worker)",
+      "execution_time": 1.2284080982208252,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0407-0000-c67d116d6186"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_int_blob_promos_promo_and_plan_key.7cad406cb4",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:19.185921Z",
+          "completed_at": "2024-12-28T18:41:19.189673Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:19.189879Z",
+          "completed_at": "2024-12-28T18:41:20.019251Z"
+        }
+      ],
+      "thread_id": "Thread-3 (worker)",
+      "execution_time": 0.9866769313812256,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0407-0000-c67d116d618e"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.unique_int_blob_promos_promo_and_plan_key.7264c9d52d",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:19.458006Z",
+          "completed_at": "2024-12-28T18:41:19.461639Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:19.461853Z",
+          "completed_at": "2024-12-28T18:41:20.326946Z"
+        }
+      ],
+      "thread_id": "Thread-8 (worker)",
+      "execution_time": 1.0529208183288574,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-043a-0000-c67d116d5cae"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.unique_stg_crm__tasks_id.cabac69a53",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:19.389826Z",
+          "completed_at": "2024-12-28T18:41:19.396239Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:19.396828Z",
+          "completed_at": "2024-12-28T18:41:20.374596Z"
+        }
+      ],
+      "thread_id": "Thread-6 (worker)",
+      "execution_time": 1.1415088176727295,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-043a-0000-c67d116d5cb2"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_stg_crm__tasks_id.325d5dde24",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:19.572121Z",
+          "completed_at": "2024-12-28T18:41:19.578337Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:19.578651Z",
+          "completed_at": "2024-12-28T18:41:20.627181Z"
+        }
+      ],
+      "thread_id": "Thread-5 (worker)",
+      "execution_time": 1.271691083908081,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0501-0000-c67d116d7122"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.unique_stg_crm__corporate_workspace_sfdc_workspace_id.a2ff590729",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:19.612074Z",
+          "completed_at": "2024-12-28T18:41:19.616106Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:19.616460Z",
+          "completed_at": "2024-12-28T18:41:20.917338Z"
+        }
+      ],
+      "thread_id": "Thread-7 (worker)",
+      "execution_time": 1.4632389545440674,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0501-0000-c67d116d712a"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.accepted_values_stg_crm__contacts_is_deleted__False__False.93dc8b43ab",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:19.895215Z",
+          "completed_at": "2024-12-28T18:41:19.903866Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:19.904347Z",
+          "completed_at": "2024-12-28T18:41:20.985462Z"
+        }
+      ],
+      "thread_id": "Thread-1 (worker)",
+      "execution_time": 1.2586638927459717,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0501-0000-c67d116d7132"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_recently_stg_crm__contacts_account_id__7__last_modified_at.dba50675b0",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:14.423042Z",
+          "completed_at": "2024-12-28T18:41:14.423045Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:14.423567Z",
+          "completed_at": "2024-12-28T18:41:21.070984Z"
+        }
+      ],
+      "thread_id": "Thread-4 (worker)",
+      "execution_time": 6.777935028076172,
+      "adapter_response": {
+        "_message": "INSERT 16347",
+        "code": "INSERT",
+        "rows_affected": 16347
+      },
+      "message": "INSERT 16347",
+      "failures": null,
+      "unique_id": "seed.dbt_corporate.free_contact_provider_companys",
+      "compiled": null,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:20.179305Z",
+          "completed_at": "2024-12-28T18:41:20.187991Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:20.189232Z",
+          "completed_at": "2024-12-28T18:41:21.160679Z"
+        }
+      ],
+      "thread_id": "Thread-3 (worker)",
+      "execution_time": 1.3466072082519531,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-043a-0000-c67d116d5cc2"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_stg_crm__contacts_id.63f61730a0",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:12.023189Z",
+          "completed_at": "2024-12-28T18:41:12.029734Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:12.030207Z",
+          "completed_at": "2024-12-28T18:41:21.721708Z"
+        }
+      ],
+      "thread_id": "Thread-2 (worker)",
+      "execution_time": 9.877310991287231,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0501-0000-c67d116d708a"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.stg_crm__opportunities",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.stg_crm__opportunities"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:20.513567Z",
+          "completed_at": "2024-12-28T18:41:20.525725Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:20.526832Z",
+          "completed_at": "2024-12-28T18:41:21.722916Z"
+        }
+      ],
+      "thread_id": "Thread-8 (worker)",
+      "execution_time": 1.3949129581451416,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0407-0000-c67d116d61b6"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.unique_stg_crm__contacts_id.c01ff48e4b",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:21.201603Z",
+          "completed_at": "2024-12-28T18:41:21.205996Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:21.206210Z",
+          "completed_at": "2024-12-28T18:41:22.201741Z"
+        }
+      ],
+      "thread_id": "Thread-4 (worker)",
+      "execution_time": 1.1463391780853271,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-043a-0000-c67d116d5cde"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_stg_crm__users_id.7cb2aad888",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:21.526388Z",
+          "completed_at": "2024-12-28T18:41:21.533982Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:21.534393Z",
+          "completed_at": "2024-12-28T18:41:22.685045Z"
+        }
+      ],
+      "thread_id": "Thread-3 (worker)",
+      "execution_time": 1.4349761009216309,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0501-0000-c67d116d715e"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.unique_stg_crm__users_id.f284053bc0",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:21.078072Z",
+          "completed_at": "2024-12-28T18:41:21.085053Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:21.085346Z",
+          "completed_at": "2024-12-28T18:41:23.203772Z"
+        }
+      ],
+      "thread_id": "Thread-7 (worker)",
+      "execution_time": 2.3048672676086426,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-043a-0000-c67d116d5cda"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.int_crm_linked_contacts",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.int_crm_linked_contacts"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:22.352464Z",
+          "completed_at": "2024-12-28T18:41:22.360338Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:22.360772Z",
+          "completed_at": "2024-12-28T18:41:23.466853Z"
+        }
+      ],
+      "thread_id": "Thread-4 (worker)",
+      "execution_time": 1.3051948547363281,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0407-0000-c67d116d61ea"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_util_days_date_day.557374902b",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:22.963523Z",
+          "completed_at": "2024-12-28T18:41:22.969891Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:22.970316Z",
+          "completed_at": "2024-12-28T18:41:24.029733Z"
+        }
+      ],
+      "thread_id": "Thread-3 (worker)",
+      "execution_time": 1.3425021171569824,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0501-0000-c67d116d7196"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.unique_util_days_date_day.3bd4bec0ae",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:20.538609Z",
+          "completed_at": "2024-12-28T18:41:20.550301Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:20.551166Z",
+          "completed_at": "2024-12-28T18:41:24.458623Z"
+        }
+      ],
+      "thread_id": "Thread-6 (worker)",
+      "execution_time": 4.0798163414001465,
+      "adapter_response": {
+        "_message": "SUCCESS 0",
+        "code": "SUCCESS",
+        "rows_affected": 0,
+        "query_id": "02g77861-0003-0407-0000-c67d116d61f6"
+      },
+      "message": "SUCCESS 0",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.dim_client_events_nue_events",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.dim_client_events_nue_events"
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:20.847422Z",
+          "completed_at": "2024-12-28T18:41:20.854187Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:20.856248Z",
+          "completed_at": "2024-12-28T18:41:24.590762Z"
+        }
+      ],
+      "thread_id": "Thread-5 (worker)",
+      "execution_time": 3.8799760341644287,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0501-0000-c67d116d716a"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.int_client_events_sign_up_contacts",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.int_client_events_sign_up_contacts"
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:21.921427Z",
+          "completed_at": "2024-12-28T18:41:21.932738Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:21.933549Z",
+          "completed_at": "2024-12-28T18:41:24.596726Z"
+        }
+      ],
+      "thread_id": "Thread-8 (worker)",
+      "execution_time": 2.8279850482940674,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-043a-0000-c67d116d5cfe"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.int_blob_corporate_customer_data_custom_field_contacts",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.int_blob_corporate_customer_data_custom_field_contacts"
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:21.909480Z",
+          "completed_at": "2024-12-28T18:41:21.918000Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:21.918595Z",
+          "completed_at": "2024-12-28T18:41:24.870808Z"
+        }
+      ],
+      "thread_id": "Thread-2 (worker)",
+      "execution_time": 3.123293876647949,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0407-0000-c67d116d61ee"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.int_blob_corporate_customer_data_custom_field_accounts",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.int_blob_corporate_customer_data_custom_field_accounts"
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:21.155794Z",
+          "completed_at": "2024-12-28T18:41:21.161833Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:21.162070Z",
+          "completed_at": "2024-12-28T18:41:25.058670Z"
+        }
+      ],
+      "thread_id": "Thread-1 (worker)",
+      "execution_time": 4.060429096221924,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0501-0000-c67d116d7162"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.int_workspace_control_and_treatment",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.int_workspace_control_and_treatment"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:24.309665Z",
+          "completed_at": "2024-12-28T18:41:24.313567Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:24.313767Z",
+          "completed_at": "2024-12-28T18:41:25.268974Z"
+        }
+      ],
+      "thread_id": "Thread-3 (worker)",
+      "execution_time": 1.0924608707427979,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-043a-0000-c67d116d5d3e"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.accepted_values_stg_crm__opportunities_is_deleted__False__False.a3d410d394",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:23.661781Z",
+          "completed_at": "2024-12-28T18:41:23.670632Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:23.671089Z",
+          "completed_at": "2024-12-28T18:41:25.347669Z"
+        }
+      ],
+      "thread_id": "Thread-4 (worker)",
+      "execution_time": 1.9387791156768799,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-043a-0000-c67d116d5d22"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.stg_free_contact_provider_companys",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.stg_free_contact_provider_companys"
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:23.392877Z",
+          "completed_at": "2024-12-28T18:41:23.399201Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:23.399558Z",
+          "completed_at": "2024-12-28T18:41:25.344800Z"
+        }
+      ],
+      "thread_id": "Thread-7 (worker)",
+      "execution_time": 2.218953847885132,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-043a-0000-c67d116d5d16"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.fct_crm_tasks",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.fct_crm_tasks"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:24.620350Z",
+          "completed_at": "2024-12-28T18:41:24.629564Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:24.629996Z",
+          "completed_at": "2024-12-28T18:41:25.429196Z"
+        }
+      ],
+      "thread_id": "Thread-6 (worker)",
+      "execution_time": 0.9987571239471436,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-043a-0000-c67d116d5d4a"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_recently_stg_crm__opportunities_account_id__7__datediff_hour_current_timestamp_created_at_12_and_last_modified_at.5ff180b5d2",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:24.747171Z",
+          "completed_at": "2024-12-28T18:41:24.750575Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:24.750780Z",
+          "completed_at": "2024-12-28T18:41:25.904202Z"
+        }
+      ],
+      "thread_id": "Thread-8 (worker)",
+      "execution_time": 1.5747802257537842,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0407-0000-c67d116d6232"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.unique_stg_crm__opportunities_id.48dce48d66",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:24.728660Z",
+          "completed_at": "2024-12-28T18:41:24.733343Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:24.733719Z",
+          "completed_at": "2024-12-28T18:41:25.919875Z"
+        }
+      ],
+      "thread_id": "Thread-5 (worker)",
+      "execution_time": 1.6076688766479492,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0407-0000-c67d116d623a"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_stg_crm__opportunities_id.5b89eaecdc",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:25.624682Z",
+          "completed_at": "2024-12-28T18:41:25.637500Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:25.637769Z",
+          "completed_at": "2024-12-28T18:41:26.504980Z"
+        }
+      ],
+      "thread_id": "Thread-7 (worker)",
+      "execution_time": 1.0171787738800049,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-043a-0000-c67d116d5d6e"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_int_crm_linked_contacts_is_linked_crm.dc6cee31ce",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:25.404653Z",
+          "completed_at": "2024-12-28T18:41:25.413774Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:25.414117Z",
+          "completed_at": "2024-12-28T18:41:26.651819Z"
+        }
+      ],
+      "thread_id": "Thread-3 (worker)",
+      "execution_time": 1.3981833457946777,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0501-0000-c67d116d71e6"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_int_crm_linked_contacts_contact.57f1c7109e",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:25.032177Z",
+          "completed_at": "2024-12-28T18:41:25.036861Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:25.037075Z",
+          "completed_at": "2024-12-28T18:41:26.681321Z"
+        }
+      ],
+      "thread_id": "Thread-2 (worker)",
+      "execution_time": 1.7830030918121338,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0407-0000-c67d116d6246"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.int_contact_title_seniority_departments_flattened",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.int_contact_title_seniority_departments_flattened"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:25.601734Z",
+          "completed_at": "2024-12-28T18:41:25.609833Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:25.611256Z",
+          "completed_at": "2024-12-28T18:41:26.698632Z"
+        }
+      ],
+      "thread_id": "Thread-4 (worker)",
+      "execution_time": 1.2252988815307617,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-043a-0000-c67d116d5d72"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_int_crm_linked_contacts_first_crm_linked_at_utc.81d24f0399",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:25.631628Z",
+          "completed_at": "2024-12-28T18:41:25.640721Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:25.641020Z",
+          "completed_at": "2024-12-28T18:41:26.861647Z"
+        }
+      ],
+      "thread_id": "Thread-6 (worker)",
+      "execution_time": 1.3756871223449707,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0407-0000-c67d116d625e"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_int_crm_linked_contacts_last_crm_linked_at_utc.c0cf9fc6e8",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:26.337499Z",
+          "completed_at": "2024-12-28T18:41:26.345689Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:26.346101Z",
+          "completed_at": "2024-12-28T18:41:27.234760Z"
+        }
+      ],
+      "thread_id": "Thread-8 (worker)",
+      "execution_time": 1.0614807605743408,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-043a-0000-c67d116d5d86"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.unique_int_crm_linked_contacts_contact.10c14bd6c2",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:26.642037Z",
+          "completed_at": "2024-12-28T18:41:26.653497Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:26.653849Z",
+          "completed_at": "2024-12-28T18:41:27.529588Z"
+        }
+      ],
+      "thread_id": "Thread-7 (worker)",
+      "execution_time": 1.0201070308685303,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0501-0000-c67d116d720e"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_int_client_events_sign_up_contacts_user_id.f3476f7c38",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:26.803952Z",
+          "completed_at": "2024-12-28T18:41:26.808858Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:26.809165Z",
+          "completed_at": "2024-12-28T18:41:27.581439Z"
+        }
+      ],
+      "thread_id": "Thread-3 (worker)",
+      "execution_time": 0.9052860736846924,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-043a-0000-c67d116d5d8e"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.unique_int_client_events_sign_up_contacts_user_id.4d6b8a0d9e",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:26.816305Z",
+          "completed_at": "2024-12-28T18:41:26.822926Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:26.823248Z",
+          "completed_at": "2024-12-28T18:41:27.578090Z"
+        }
+      ],
+      "thread_id": "Thread-2 (worker)",
+      "execution_time": 0.8940150737762451,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-043a-0000-c67d116d5d92"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_int_blob_corporate_customer_data_custom_field_contacts_contact_id.6ea464f63d",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:26.830463Z",
+          "completed_at": "2024-12-28T18:41:26.836216Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:26.836513Z",
+          "completed_at": "2024-12-28T18:41:27.634626Z"
+        }
+      ],
+      "thread_id": "Thread-4 (worker)",
+      "execution_time": 0.9661660194396973,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0407-0000-c67d116d628e"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.unique_int_blob_corporate_customer_data_custom_field_contacts_contact_id.0552307505",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:27.008119Z",
+          "completed_at": "2024-12-28T18:41:27.012917Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:27.013176Z",
+          "completed_at": "2024-12-28T18:41:27.823203Z"
+        }
+      ],
+      "thread_id": "Thread-6 (worker)",
+      "execution_time": 0.978391170501709,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0407-0000-c67d116d6292"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_int_blob_corporate_customer_data_custom_field_accounts_blob_account_id.bbdb32b725",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:27.397038Z",
+          "completed_at": "2024-12-28T18:41:27.403969Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:27.404444Z",
+          "completed_at": "2024-12-28T18:41:28.389788Z"
+        }
+      ],
+      "thread_id": "Thread-8 (worker)",
+      "execution_time": 1.1523890495300293,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0501-0000-c67d116d7226"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.unique_int_blob_corporate_customer_data_custom_field_accounts_blob_account_id.1c9a711975",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:27.715364Z",
+          "completed_at": "2024-12-28T18:41:27.726057Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:27.726438Z",
+          "completed_at": "2024-12-28T18:41:28.509207Z"
+        }
+      ],
+      "thread_id": "Thread-3 (worker)",
+      "execution_time": 0.9286069869995117,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0501-0000-c67d116d7236"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.unique_int_workspace_control_and_treatment_corporate_workspace_id.87b5f7fefa",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:27.664668Z",
+          "completed_at": "2024-12-28T18:41:27.674155Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:27.674697Z",
+          "completed_at": "2024-12-28T18:41:28.511064Z"
+        }
+      ],
+      "thread_id": "Thread-7 (worker)",
+      "execution_time": 0.9854061603546143,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0407-0000-c67d116d62b2"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_int_workspace_control_and_treatment_corporate_workspace_id.2d935dd667",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:27.721681Z",
+          "completed_at": "2024-12-28T18:41:27.729138Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:27.729747Z",
+          "completed_at": "2024-12-28T18:41:28.560812Z"
+        }
+      ],
+      "thread_id": "Thread-2 (worker)",
+      "execution_time": 0.9927301406860352,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-043a-0000-c67d116d5dae"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_stg_free_contact_provider_companys_free_companys.873139b4e6",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:27.796590Z",
+          "completed_at": "2024-12-28T18:41:27.799992Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:27.800190Z",
+          "completed_at": "2024-12-28T18:41:28.623250Z"
+        }
+      ],
+      "thread_id": "Thread-4 (worker)",
+      "execution_time": 1.0058271884918213,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0501-0000-c67d116d723e"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.unique_stg_free_contact_provider_companys_free_companys.051648baf1",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:26.348035Z",
+          "completed_at": "2024-12-28T18:41:26.353823Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:26.354062Z",
+          "completed_at": "2024-12-28T18:41:28.870380Z"
+        }
+      ],
+      "thread_id": "Thread-5 (worker)",
+      "execution_time": 2.67374587059021,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0407-0000-c67d116d627e"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.int_workspace_enabled_users_history",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.int_workspace_enabled_users_history"
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:25.219392Z",
+          "completed_at": "2024-12-28T18:41:25.228120Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:25.229167Z",
+          "completed_at": "2024-12-28T18:41:28.948655Z"
+        }
+      ],
+      "thread_id": "Thread-1 (worker)",
+      "execution_time": 3.871674060821533,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0407-0000-c67d116d6262"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.dim_crm_users",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.dim_crm_users"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:27.987735Z",
+          "completed_at": "2024-12-28T18:41:27.992443Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:27.992839Z",
+          "completed_at": "2024-12-28T18:41:28.937449Z"
+        }
+      ],
+      "thread_id": "Thread-6 (worker)",
+      "execution_time": 1.1073031425476074,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-043a-0000-c67d116d5dca"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_fct_crm_tasks_id.ef3a1d3513",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:28.551458Z",
+          "completed_at": "2024-12-28T18:41:28.563233Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:28.564711Z",
+          "completed_at": "2024-12-28T18:41:29.486071Z"
+        }
+      ],
+      "thread_id": "Thread-8 (worker)",
+      "execution_time": 1.0875520706176758,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-043a-0000-c67d116d5dda"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.unique_fct_crm_tasks_id.4ca97db317",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:28.644408Z",
+          "completed_at": "2024-12-28T18:41:28.650218Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:28.650637Z",
+          "completed_at": "2024-12-28T18:41:29.642203Z"
+        }
+      ],
+      "thread_id": "Thread-3 (worker)",
+      "execution_time": 1.126725196838379,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-043a-0000-c67d116d5dde"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.unique_int_contact_title_seniority_departments_flattened_primary_title.b91f290649",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:29.112048Z",
+          "completed_at": "2024-12-28T18:41:29.160814Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:29.163181Z",
+          "completed_at": "2024-12-28T18:41:29.844851Z"
+        }
+      ],
+      "thread_id": "Thread-2 (worker)",
+      "execution_time": 0.8698940277099609,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0407-0000-c67d116d62ea"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.elementary_table_anomalies_dim_crm_users_freshness__system_modstamp.72ff0730ff",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:29.154398Z",
+          "completed_at": "2024-12-28T18:41:29.160623Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:29.161184Z",
+          "completed_at": "2024-12-28T18:41:29.981353Z"
+        }
+      ],
+      "thread_id": "Thread-5 (worker)",
+      "execution_time": 1.0372381210327148,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0501-0000-c67d116d726e"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.unique_dim_crm_users_id.e1aa4ff321",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:29.130300Z",
+          "completed_at": "2024-12-28T18:41:29.158187Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:29.158455Z",
+          "completed_at": "2024-12-28T18:41:29.973118Z"
+        }
+      ],
+      "thread_id": "Thread-4 (worker)",
+      "execution_time": 1.0421152114868164,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0501-0000-c67d116d7272"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_dim_crm_users_id.e2511d9d74",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:29.653691Z",
+          "completed_at": "2024-12-28T18:41:29.657545Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:29.657774Z",
+          "completed_at": "2024-12-28T18:41:31.450339Z"
+        }
+      ],
+      "thread_id": "Thread-1 (worker)",
+      "execution_time": 1.9351239204406738,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0407-0000-c67d116d62f2"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.dim_plsm_task_influenced_contacts",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.dim_plsm_task_influenced_contacts"
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:28.655984Z",
+          "completed_at": "2024-12-28T18:41:28.666789Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:28.667098Z",
+          "completed_at": "2024-12-28T18:41:33.709899Z"
+        }
+      ],
+      "thread_id": "Thread-7 (worker)",
+      "execution_time": 5.212579250335693,
+      "adapter_response": {
+        "_message": "SUCCESS 0",
+        "code": "SUCCESS",
+        "rows_affected": 0,
+        "query_id": "02g77861-0003-043a-0000-c67d116d5e12"
+      },
+      "message": "SUCCESS 0",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.int_taxonomy_user_events",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.int_taxonomy_user_events"
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:29.772688Z",
+          "completed_at": "2024-12-28T18:41:29.779967Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:29.780223Z",
+          "completed_at": "2024-12-28T18:41:34.161523Z"
+        }
+      ],
+      "thread_id": "Thread-8 (worker)",
+      "execution_time": 4.548924922943115,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0501-0000-c67d116d7292"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.int_contact_title_persona_mapping",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.int_contact_title_persona_mapping"
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:31.590683Z",
+          "completed_at": "2024-12-28T18:41:31.600293Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:31.600580Z",
+          "completed_at": "2024-12-28T18:41:35.253909Z"
+        }
+      ],
+      "thread_id": "Thread-3 (worker)",
+      "execution_time": 3.7887511253356934,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-043a-0000-c67d116d5e0e"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.dim_crm_opportunities",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.dim_crm_opportunities"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:34.324603Z",
+          "completed_at": "2024-12-28T18:41:34.333325Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:34.333880Z",
+          "completed_at": "2024-12-28T18:41:35.388296Z"
+        }
+      ],
+      "thread_id": "Thread-4 (worker)",
+      "execution_time": 1.2476310729980469,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0407-0000-c67d116d6326"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_int_contact_title_persona_mapping_primary_title.119c4caf50",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:34.329184Z",
+          "completed_at": "2024-12-28T18:41:34.333629Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:34.336816Z",
+          "completed_at": "2024-12-28T18:41:35.406099Z"
+        }
+      ],
+      "thread_id": "Thread-1 (worker)",
+      "execution_time": 1.2570359706878662,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-043a-0000-c67d116d5e3e"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.unique_int_contact_title_persona_mapping_primary_title.ba402g30fa",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:33.871980Z",
+          "completed_at": "2024-12-28T18:41:33.892563Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:33.893732Z",
+          "completed_at": "2024-12-28T18:41:36.144974Z"
+        }
+      ],
+      "thread_id": "Thread-2 (worker)",
+      "execution_time": 2.4254777431488037,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0407-0000-c67d116d631e"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.fct_instance_nue_first_time_dates",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.fct_instance_nue_first_time_dates"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:35.388743Z",
+          "completed_at": "2024-12-28T18:41:35.406527Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:35.408695Z",
+          "completed_at": "2024-12-28T18:41:36.317902Z"
+        }
+      ],
+      "thread_id": "Thread-7 (worker)",
+      "execution_time": 1.0706560611724854,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0501-0000-c67d116d72e6"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.elementary_table_anomalies_dim_crm_opportunities_2__freshness__system_modstamp.26e84d544b",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:35.400204Z",
+          "completed_at": "2024-12-28T18:41:35.411274Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:35.417273Z",
+          "completed_at": "2024-12-28T18:41:36.358748Z"
+        }
+      ],
+      "thread_id": "Thread-8 (worker)",
+      "execution_time": 1.123910903930664,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-043a-0000-c67d116d5e4e"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.unique_dim_crm_opportunities_id.853dae3566",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:35.394779Z",
+          "completed_at": "2024-12-28T18:41:35.408257Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:35.411817Z",
+          "completed_at": "2024-12-28T18:41:36.377067Z"
+        }
+      ],
+      "thread_id": "Thread-5 (worker)",
+      "execution_time": 1.1483912467956543,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0407-0000-c67d116d633a"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_dim_crm_opportunities_id.40052c997e",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:36.557702Z",
+          "completed_at": "2024-12-28T18:41:36.567959Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:36.574849Z",
+          "completed_at": "2024-12-28T18:41:37.893768Z"
+        }
+      ],
+      "thread_id": "Thread-4 (worker)",
+      "execution_time": 1.5085780620574951,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-043a-0000-c67d116d5e66"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.int_workspace_won_opportunity_count",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.int_workspace_won_opportunity_count"
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:36.554072Z",
+          "completed_at": "2024-12-28T18:41:36.567366Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:36.568186Z",
+          "completed_at": "2024-12-28T18:41:38.089695Z"
+        }
+      ],
+      "thread_id": "Thread-6 (worker)",
+      "execution_time": 1.6841988563537598,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0407-0000-c67d116d634e"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.int_workspace_first_deal",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.int_workspace_first_deal"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:38.231998Z",
+          "completed_at": "2024-12-28T18:41:38.236971Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:38.239711Z",
+          "completed_at": "2024-12-28T18:41:39.044596Z"
+        }
+      ],
+      "thread_id": "Thread-8 (worker)",
+      "execution_time": 0.9409239292144775,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0501-0000-c67d116d732a"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.unique_int_workspace_first_deal_corporate_workspace_id.cb066d9736",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:36.542603Z",
+          "completed_at": "2024-12-28T18:41:36.574639Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:36.577518Z",
+          "completed_at": "2024-12-28T18:41:39.057323Z"
+        }
+      ],
+      "thread_id": "Thread-3 (worker)",
+      "execution_time": 2.688415050506592,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0407-0000-c67d116d6356"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.int_account_edition_changes",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.int_account_edition_changes"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:38.227237Z",
+          "completed_at": "2024-12-28T18:41:38.236675Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:38.237180Z",
+          "completed_at": "2024-12-28T18:41:39.052772Z"
+        }
+      ],
+      "thread_id": "Thread-7 (worker)",
+      "execution_time": 1.028818130493164,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-043a-0000-c67d116d5e82"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_int_workspace_first_deal_corporate_workspace_id.185dd9f0a7",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:36.561034Z",
+          "completed_at": "2024-12-28T18:41:36.567671Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:36.572655Z",
+          "completed_at": "2024-12-28T18:41:39.261535Z"
+        }
+      ],
+      "thread_id": "Thread-1 (worker)",
+      "execution_time": 2.8871381282806396,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0501-0000-c67d116d7306"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.int_user_first_active_date",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.int_user_first_active_date"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:39.229919Z",
+          "completed_at": "2024-12-28T18:41:39.239898Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:39.242534Z",
+          "completed_at": "2024-12-28T18:41:40.027178Z"
+        }
+      ],
+      "thread_id": "Thread-2 (worker)",
+      "execution_time": 0.9268441200256348,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-043a-0000-c67d116d5e96"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_int_account_edition_changes_unique_key.c136a2bece",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:39.234906Z",
+          "completed_at": "2024-12-28T18:41:39.239711Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:39.240280Z",
+          "completed_at": "2024-12-28T18:41:40.122380Z"
+        }
+      ],
+      "thread_id": "Thread-4 (worker)",
+      "execution_time": 1.0413880348205566,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0501-0000-c67d116d7346"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.unique_int_account_edition_changes_unique_key.c897a093a5",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:39.431413Z",
+          "completed_at": "2024-12-28T18:41:39.440322Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:39.443495Z",
+          "completed_at": "2024-12-28T18:41:40.264076Z"
+        }
+      ],
+      "thread_id": "Thread-5 (worker)",
+      "execution_time": 0.9682700634002686,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0501-0000-c67d116d7352"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_int_user_first_active_date_user_id.b6adfb0d6d",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:39.435337Z",
+          "completed_at": "2024-12-28T18:41:39.440072Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:39.440581Z",
+          "completed_at": "2024-12-28T18:41:40.274598Z"
+        }
+      ],
+      "thread_id": "Thread-8 (worker)",
+      "execution_time": 1.0035150051116943,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0407-0000-c67d116d6372"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.unique_int_user_first_active_date_user_id.b2048fc4d9",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:40.437588Z",
+          "completed_at": "2024-12-28T18:41:40.448419Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:40.448679Z",
+          "completed_at": "2024-12-28T18:41:45.122813Z"
+        }
+      ],
+      "thread_id": "Thread-6 (worker)",
+      "execution_time": 4.852322101593018,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0407-0000-c67d116d637e"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.dim_crm_contacts",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.dim_crm_contacts"
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:45.303944Z",
+          "completed_at": "2024-12-28T18:41:45.313771Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:45.317714Z",
+          "completed_at": "2024-12-28T18:41:46.842844Z"
+        }
+      ],
+      "thread_id": "Thread-4 (worker)",
+      "execution_time": 1.6883482933044434,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0501-0000-c67d116d737a"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.int_workspace_first_created_user",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.int_workspace_first_created_user"
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:45.299107Z",
+          "completed_at": "2024-12-28T18:41:45.310196Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:45.310666Z",
+          "completed_at": "2024-12-28T18:41:47.172558Z"
+        }
+      ],
+      "thread_id": "Thread-3 (worker)",
+      "execution_time": 2.0311338901519775,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-043a-0000-c67d116d5ec2"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.int_free_contact_company_accounts",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.int_free_contact_company_accounts"
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:45.295150Z",
+          "completed_at": "2024-12-28T18:41:45.308146Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:45.308476Z",
+          "completed_at": "2024-12-28T18:41:47.262094Z"
+        }
+      ],
+      "thread_id": "Thread-1 (worker)",
+      "execution_time": 2.1000020503997803,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0501-0000-c67d116d737e"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.fct_user_activation_meetings_booked",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.fct_user_activation_meetings_booked"
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:45.305765Z",
+          "completed_at": "2024-12-28T18:41:45.313418Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:45.314356Z",
+          "completed_at": "2024-12-28T18:41:47.623906Z"
+        }
+      ],
+      "thread_id": "Thread-5 (worker)",
+      "execution_time": 2.4570741653442383,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0501-0000-c67d116d7386"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.int_workspace_persona_counts_and_flags",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.int_workspace_persona_counts_and_flags"
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:45.301503Z",
+          "completed_at": "2024-12-28T18:41:45.313603Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:45.316108Z",
+          "completed_at": "2024-12-28T18:41:47.629520Z"
+        }
+      ],
+      "thread_id": "Thread-2 (worker)",
+      "execution_time": 2.48540997505188,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0407-0000-c67d116d6392"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.int_workspace_crm_linked_summary",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.int_workspace_crm_linked_summary"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:47.326136Z",
+          "completed_at": "2024-12-28T18:41:47.330014Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:47.330217Z",
+          "completed_at": "2024-12-28T18:41:48.059094Z"
+        }
+      ],
+      "thread_id": "Thread-7 (worker)",
+      "execution_time": 0.8955700397491455,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-043a-0000-c67d116d5ef6"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.unique_int_free_contact_company_accounts_account_id.402ce63502",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:47.403268Z",
+          "completed_at": "2024-12-28T18:41:47.406649Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:47.410450Z",
+          "completed_at": "2024-12-28T18:41:48.119110Z"
+        }
+      ],
+      "thread_id": "Thread-3 (worker)",
+      "execution_time": 0.8914830684661865,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-043a-0000-c67d116d5efa"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.unique_fct_user_activation_meetings_booked_uuid.873c75ab96",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:47.399221Z",
+          "completed_at": "2024-12-28T18:41:47.406485Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:47.408673Z",
+          "completed_at": "2024-12-28T18:41:48.457134Z"
+        }
+      ],
+      "thread_id": "Thread-4 (worker)",
+      "execution_time": 1.229828119277954,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0407-0000-c67d116d63ba"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_fct_user_activation_meetings_booked_uuid.fa6b30a916",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:47.396322Z",
+          "completed_at": "2024-12-28T18:41:47.406143Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:47.406846Z",
+          "completed_at": "2024-12-28T18:41:48.459464Z"
+        }
+      ],
+      "thread_id": "Thread-8 (worker)",
+      "execution_time": 1.2447271347045898,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0407-0000-c67d116d63b6"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_fct_user_activation_meetings_booked_user_id.d45983218a",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:47.752935Z",
+          "completed_at": "2024-12-28T18:41:47.755866Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:47.756064Z",
+          "completed_at": "2024-12-28T18:41:48.747208Z"
+        }
+      ],
+      "thread_id": "Thread-1 (worker)",
+      "execution_time": 1.1550581455230713,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0501-0000-c67d116d73b6"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.unique_int_workspace_persona_counts_and_flags_sfdc_workspace_id.562b0a16b4",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:48.223190Z",
+          "completed_at": "2024-12-28T18:41:48.226066Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:48.226235Z",
+          "completed_at": "2024-12-28T18:41:50.675957Z"
+        }
+      ],
+      "thread_id": "Thread-5 (worker)",
+      "execution_time": 2.688438892364502,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0501-0000-c67d116d73be"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.int_workspace_id_mappings",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.int_workspace_id_mappings"
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:50.913373Z",
+          "completed_at": "2024-12-28T18:41:50.919483Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:50.919803Z",
+          "completed_at": "2024-12-28T18:41:53.383262Z"
+        }
+      ],
+      "thread_id": "Thread-2 (worker)",
+      "execution_time": 2.6420302391052246,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-043a-0000-c67d116d5f1e"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.int_opportunities_and_accounts",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.int_opportunities_and_accounts"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:53.564317Z",
+          "completed_at": "2024-12-28T18:41:53.569081Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:53.571327Z",
+          "completed_at": "2024-12-28T18:41:54.387503Z"
+        }
+      ],
+      "thread_id": "Thread-3 (worker)",
+      "execution_time": 0.9676880836486816,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0407-0000-c67d116d63e6"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_int_opportunities_and_accounts_sfdc_workspace_or_account_id.f580038987",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:53.558072Z",
+          "completed_at": "2024-12-28T18:41:53.568844Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:53.569277Z",
+          "completed_at": "2024-12-28T18:41:55.508850Z"
+        }
+      ],
+      "thread_id": "Thread-6 (worker)",
+      "execution_time": 2.1182050704956055,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0501-0000-c67d116d73ee"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.dbt_utils_unique_combination_of_columns_int_opportunities_and_accounts_sfdc_workspace_or_account_id__sfdc_opportunity_id__is_parent_account.24fea14070",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:55.682668Z",
+          "completed_at": "2024-12-28T18:41:55.691291Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:55.694306Z",
+          "completed_at": "2024-12-28T18:41:57.283267Z"
+        }
+      ],
+      "thread_id": "Thread-1 (worker)",
+      "execution_time": 1.747755765914917,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-043a-0000-c67d116d5f46"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.int_sfdc_account_start_and_end",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.int_sfdc_account_start_and_end"
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:55.685936Z",
+          "completed_at": "2024-12-28T18:41:55.691083Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:55.691557Z",
+          "completed_at": "2024-12-28T18:41:57.422172Z"
+        }
+      ],
+      "thread_id": "Thread-5 (worker)",
+      "execution_time": 1.943099021911621,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0501-0000-c67d116d73fa"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.int_sfdc_workspace_start_and_end",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.int_sfdc_workspace_start_and_end"
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:55.679023Z",
+          "completed_at": "2024-12-28T18:41:55.688455Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:55.688732Z",
+          "completed_at": "2024-12-28T18:41:57.672025Z"
+        }
+      ],
+      "thread_id": "Thread-8 (worker)",
+      "execution_time": 2.1332008838653564,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-043a-0000-c67d116d5f42"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.fct_account_edition_changes_extended",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.fct_account_edition_changes_extended"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:57.624097Z",
+          "completed_at": "2024-12-28T18:41:57.630947Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:57.631352Z",
+          "completed_at": "2024-12-28T18:41:58.401269Z"
+        }
+      ],
+      "thread_id": "Thread-2 (worker)",
+      "execution_time": 0.9117550849914551,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-043a-0000-c67d116d5f62"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_int_sfdc_workspace_start_and_end_corporate_workspace_id.3d83009053",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:57.626909Z",
+          "completed_at": "2024-12-28T18:41:57.631177Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:57.633160Z",
+          "completed_at": "2024-12-28T18:41:58.437326Z"
+        }
+      ],
+      "thread_id": "Thread-4 (worker)",
+      "execution_time": 0.9427251815795898,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-043a-0000-c67d116d5f5e"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.unique_int_sfdc_workspace_start_and_end_corporate_workspace_id.fb47f5a616",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:57.813001Z",
+          "completed_at": "2024-12-28T18:41:57.816793Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:57.817000Z",
+          "completed_at": "2024-12-28T18:41:58.549597Z"
+        }
+      ],
+      "thread_id": "Thread-6 (worker)",
+      "execution_time": 0.8929128646850586,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-043a-0000-c67d116d5f6a"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_fct_account_edition_changes_extended_sfdc_workspace_id.f20280cb38",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:58.584931Z",
+          "completed_at": "2024-12-28T18:41:58.588096Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:58.590517Z",
+          "completed_at": "2024-12-28T18:42:00.528113Z"
+        }
+      ],
+      "thread_id": "Thread-3 (worker)",
+      "execution_time": 2.076937198638916,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0407-0000-c67d116d641a"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.int_instance_first_active_date",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.int_instance_first_active_date"
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:58.579295Z",
+          "completed_at": "2024-12-28T18:41:58.587878Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:58.588367Z",
+          "completed_at": "2024-12-28T18:42:00.705701Z"
+        }
+      ],
+      "thread_id": "Thread-5 (worker)",
+      "execution_time": 2.2905330657958984,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0407-0000-c67d116d641e"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.fct_blob_promos_workspaces",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.fct_blob_promos_workspaces"
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:58.707575Z",
+          "completed_at": "2024-12-28T18:41:58.711485Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:58.711735Z",
+          "completed_at": "2024-12-28T18:42:00.722736Z"
+        }
+      ],
+      "thread_id": "Thread-7 (worker)",
+      "execution_time": 2.1582939624786377,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77861-0003-0501-0000-c67d116d7422"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.fct_account_edition_changes_extended_large_inc",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.fct_account_edition_changes_extended_large_inc"
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:41:58.571018Z",
+          "completed_at": "2024-12-28T18:41:58.592609Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:41:58.593289Z",
+          "completed_at": "2024-12-28T18:42:00.887236Z"
+        }
+      ],
+      "thread_id": "Thread-1 (worker)",
+      "execution_time": 2.4864377975463867,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77862-0003-043a-0000-c67d116d5f8e"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.fct_inc_department_size_account",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.fct_inc_department_size_account"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:42:00.870878Z",
+          "completed_at": "2024-12-28T18:42:00.875126Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:42:00.875763Z",
+          "completed_at": "2024-12-28T18:42:01.719593Z"
+        }
+      ],
+      "thread_id": "Thread-3 (worker)",
+      "execution_time": 1.06520676612854,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77862-0003-043a-0000-c67d116d5faa"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.unique_fct_blob_promos_workspaces_workspace_promos_id.14864850e7",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:42:00.866769Z",
+          "completed_at": "2024-12-28T18:42:00.875470Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:42:00.881591Z",
+          "completed_at": "2024-12-28T18:42:01.728848Z"
+        }
+      ],
+      "thread_id": "Thread-2 (worker)",
+      "execution_time": 1.0725786685943604,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77862-0003-0501-0000-c67d116d7456"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_fct_blob_promos_workspaces_workspace_promos_id.678f3ad323",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:42:00.651336Z",
+          "completed_at": "2024-12-28T18:42:00.662302Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:42:00.666633Z",
+          "completed_at": "2024-12-28T18:42:03.003723Z"
+        }
+      ],
+      "thread_id": "Thread-4 (worker)",
+      "execution_time": 2.4847939014434814,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77862-0003-0501-0000-c67d116d744e"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.fct_workspace_activation_meetings_booked",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.fct_workspace_activation_meetings_booked"
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:42:00.656737Z",
+          "completed_at": "2024-12-28T18:42:00.662004Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:42:00.662554Z",
+          "completed_at": "2024-12-28T18:42:03.190636Z"
+        }
+      ],
+      "thread_id": "Thread-8 (worker)",
+      "execution_time": 2.686885118484497,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77862-0003-0407-0000-c67d116d6456"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.int_instance_setup_f28d",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.int_instance_setup_f28d"
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:42:03.342543Z",
+          "completed_at": "2024-12-28T18:42:03.352220Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:42:03.352878Z",
+          "completed_at": "2024-12-28T18:42:05.127693Z"
+        }
+      ],
+      "thread_id": "Thread-7 (worker)",
+      "execution_time": 1.9117021560668945,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77862-0003-0407-0000-c67d116d647a"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.int_p0_north_star_metrics",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.int_p0_north_star_metrics"
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:42:03.347753Z",
+          "completed_at": "2024-12-28T18:42:03.352582Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:42:03.355720Z",
+          "completed_at": "2024-12-28T18:42:05.206328Z"
+        }
+      ],
+      "thread_id": "Thread-1 (worker)",
+      "execution_time": 2.0097570419311523,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77862-0003-0501-0000-c67d116d747e"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.int_workspace_activation_milestones_ever",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.int_workspace_activation_milestones_ever"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:42:05.268505Z",
+          "completed_at": "2024-12-28T18:42:05.278415Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:42:05.279914Z",
+          "completed_at": "2024-12-28T18:42:06.103176Z"
+        }
+      ],
+      "thread_id": "Thread-2 (worker)",
+      "execution_time": 1.000063419342041,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77862-0003-043a-0000-c67d116d5fde"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.unique_int_p0_north_star_metrics_corporate_workspace_id.ffb29a304c",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:42:05.259578Z",
+          "completed_at": "2024-12-28T18:42:05.274129Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:42:05.274721Z",
+          "completed_at": "2024-12-28T18:42:06.104306Z"
+        }
+      ],
+      "thread_id": "Thread-3 (worker)",
+      "execution_time": 1.001939058303833,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77862-0003-043a-0000-c67d116d5fe2"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_int_p0_north_star_metrics_corporate_workspace_id.0218145e7b",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:42:05.360175Z",
+          "completed_at": "2024-12-28T18:42:05.363512Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:42:05.364081Z",
+          "completed_at": "2024-12-28T18:42:06.226344Z"
+        }
+      ],
+      "thread_id": "Thread-6 (worker)",
+      "execution_time": 1.0390760898590088,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77862-0003-0407-0000-c67d116d6496"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.unique_int_workspace_activation_milestones_ever_corporate_workspace_id.d297f41bf7",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:42:05.355147Z",
+          "completed_at": "2024-12-28T18:42:05.363828Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:42:05.366767Z",
+          "completed_at": "2024-12-28T18:42:06.287903Z"
+        }
+      ],
+      "thread_id": "Thread-8 (worker)",
+      "execution_time": 1.1970551013946533,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77862-0003-0501-0000-c67d116d7496"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_int_workspace_activation_milestones_ever_corporate_workspace_id.b753e6b2cd",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:42:01.058257Z",
+          "completed_at": "2024-12-28T18:42:01.066125Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:42:01.066458Z",
+          "completed_at": "2024-12-28T18:42:50.332745Z"
+        }
+      ],
+      "thread_id": "Thread-5 (worker)",
+      "execution_time": 49.50001502037048,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77862-0003-0407-0000-c67d116d6462"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.int_corporate_inc_consumption_limits",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.int_corporate_inc_consumption_limits"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:42:50.569342Z",
+          "completed_at": "2024-12-28T18:42:50.586830Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:42:50.587356Z",
+          "completed_at": "2024-12-28T18:42:51.644520Z"
+        }
+      ],
+      "thread_id": "Thread-4 (worker)",
+      "execution_time": 1.2718119621276855,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77862-0003-043a-0000-c67d116d8066"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_int_corporate_inc_consumption_limits_workspace_and_date_period_key.5b0aaf3b56",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:42:50.577845Z",
+          "completed_at": "2024-12-28T18:42:50.587094Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:42:50.592237Z",
+          "completed_at": "2024-12-28T18:42:52.407355Z"
+        }
+      ],
+      "thread_id": "Thread-1 (worker)",
+      "execution_time": 2.0270628929138184,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77862-0003-0407-0000-c67d116d6506"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.unique_int_corporate_inc_consumption_limits_workspace_and_date_period_key.0af5898830",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:42:52.600654Z",
+          "completed_at": "2024-12-28T18:42:52.617955Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:42:52.618448Z",
+          "completed_at": "2024-12-28T18:42:57.470212Z"
+        }
+      ],
+      "thread_id": "Thread-2 (worker)",
+      "execution_time": 5.015688896179199,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77862-0003-0407-0000-c67d116d6512"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.fct_inc_monitization",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.fct_inc_monitization"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:42:57.675804Z",
+          "completed_at": "2024-12-28T18:42:57.686670Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:42:57.695668Z",
+          "completed_at": "2024-12-28T18:42:58.481242Z"
+        }
+      ],
+      "thread_id": "Thread-3 (worker)",
+      "execution_time": 0.9985229969024658,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77862-0003-0407-0000-c67d116d654a"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.elementary_column_anomalies_fct_inc_monitization_sum__arr_rep__2__date_period.b97324159f",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:42:57.661932Z",
+          "completed_at": "2024-12-28T18:42:57.685614Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:42:57.687198Z",
+          "completed_at": "2024-12-28T18:42:58.515384Z"
+        }
+      ],
+      "thread_id": "Thread-1 (worker)",
+      "execution_time": 1.0508880615234375,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77862-0003-043a-0000-c67d116d808a"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.elementary_column_anomalies_fct_inc_monitization_sum__arr__2__date_period.7cfa66550f",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:42:57.678710Z",
+          "completed_at": "2024-12-28T18:42:57.686506Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:42:57.693898Z",
+          "completed_at": "2024-12-28T18:42:58.506754Z"
+        }
+      ],
+      "thread_id": "Thread-2 (worker)",
+      "execution_time": 1.0626239776611328,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77862-0003-0407-0000-c67d116d6552"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.elementary_column_anomalies_fct_inc_monitization_sum__arr_sa__2__date_period.1ea721a304",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:42:57.651262Z",
+          "completed_at": "2024-12-28T18:42:57.686990Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:42:57.699102Z",
+          "completed_at": "2024-12-28T18:42:58.594426Z"
+        }
+      ],
+      "thread_id": "Thread-7 (worker)",
+      "execution_time": 1.0887408256530762,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77862-0003-043a-0000-c67d116d8086"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.dbt_utils_expression_is_true_fct_inc_monitization_last_day_in_fiscal_quarter___1900_01_01_or_right_last_day_in_fiscal_quarter_varchar_5_in_01_31_04_30_07_31_10_31_.f208e32551",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:42:57.643446Z",
+          "completed_at": "2024-12-28T18:42:57.685808Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:42:57.689362Z",
+          "completed_at": "2024-12-28T18:42:58.605870Z"
+        }
+      ],
+      "thread_id": "Thread-8 (worker)",
+      "execution_time": 1.1104860305786133,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77862-0003-0501-0000-c67d116d756a"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.dbt_utils_accepted_range_fct_inc_monitization_days_remaining_in_month__31__0.da1f1a98e8",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:42:57.647666Z",
+          "completed_at": "2024-12-28T18:42:57.686329Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:42:57.691445Z",
+          "completed_at": "2024-12-28T18:42:58.625829Z"
+        }
+      ],
+      "thread_id": "Thread-5 (worker)",
+      "execution_time": 1.1502578258514404,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77862-0003-0407-0000-c67d116d654e"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.dbt_utils_accepted_range_fct_inc_monitization_months_remaining_in_fiscal_quarter__12__0.d31968cf62",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:42:57.658468Z",
+          "completed_at": "2024-12-28T18:42:57.686837Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:42:57.697424Z",
+          "completed_at": "2024-12-28T18:42:58.620528Z"
+        }
+      ],
+      "thread_id": "Thread-4 (worker)",
+      "execution_time": 1.2238330841064453,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77862-0003-0501-0000-c67d116d7566"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.dbt_utils_unique_combination_of_columns_fct_inc_monitization_date_period__sfdc_workspace_or_account_id__is_parent_account.f6c4abf470",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:42:57.633373Z",
+          "completed_at": "2024-12-28T18:42:57.682501Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:42:57.683012Z",
+          "completed_at": "2024-12-28T18:42:58.602542Z"
+        }
+      ],
+      "thread_id": "Thread-6 (worker)",
+      "execution_time": 1.282371997833252,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77862-0003-0501-0000-c67d116d756e"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.dbt_utils_accepted_range_fct_inc_monitization_days_remaining_in_fiscal_quarter__92__0.83a795d1cd",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:42:58.701210Z",
+          "completed_at": "2024-12-28T18:42:58.707161Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:42:58.707383Z",
+          "completed_at": "2024-12-28T18:42:59.353463Z"
+        }
+      ],
+      "thread_id": "Thread-2 (worker)",
+      "execution_time": 0.7864429950714111,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77862-0003-0501-0000-c67d116d75a2"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.elementary_column_anomalies_fct_inc_monitization_sum__mrr_rep__2__date_period.914fb75be0",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:42:58.631867Z",
+          "completed_at": "2024-12-28T18:42:58.636847Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:42:58.637133Z",
+          "completed_at": "2024-12-28T18:42:59.354716Z"
+        }
+      ],
+      "thread_id": "Thread-3 (worker)",
+      "execution_time": 0.8610758781433105,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77862-0003-043a-0000-c67d116d809e"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.elementary_column_anomalies_fct_inc_monitization_sum__arr_ss__2__date_period.603b062d80",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:42:58.719400Z",
+          "completed_at": "2024-12-28T18:42:58.723084Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:42:58.723325Z",
+          "completed_at": "2024-12-28T18:42:59.348234Z"
+        }
+      ],
+      "thread_id": "Thread-7 (worker)",
+      "execution_time": 0.8087289333343506,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77862-0003-0407-0000-c67d116d656e"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.elementary_column_anomalies_fct_inc_monitization_sum__mrr_sa__2__date_period.33516349e3",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:42:58.683565Z",
+          "completed_at": "2024-12-28T18:42:58.687690Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:42:58.688140Z",
+          "completed_at": "2024-12-28T18:42:59.423887Z"
+        }
+      ],
+      "thread_id": "Thread-1 (worker)",
+      "execution_time": 1.0030488967895508,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77862-0003-043a-0000-c67d116d80b6"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.elementary_column_anomalies_fct_inc_monitization_sum__mrr__2__date_period.e30617f445",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:42:58.779723Z",
+          "completed_at": "2024-12-28T18:42:58.782758Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:42:58.782958Z",
+          "completed_at": "2024-12-28T18:42:59.396735Z"
+        }
+      ],
+      "thread_id": "Thread-5 (worker)",
+      "execution_time": 0.9070048332214355,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77862-0003-0407-0000-c67d116d6572"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.elementary_table_anomalies_fct_inc_monitization_freshness__date_period.ed2e5dc229",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:42:58.739175Z",
+          "completed_at": "2024-12-28T18:42:58.742772Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:42:58.742944Z",
+          "completed_at": "2024-12-28T18:42:59.412014Z"
+        }
+      ],
+      "thread_id": "Thread-8 (worker)",
+      "execution_time": 0.9477963447570801,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77862-0003-0501-0000-c67d116d75ae"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.elementary_column_anomalies_fct_inc_monitization_sum__mrr_ss__2__date_period.bb38bc7a7c",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:42:58.854643Z",
+          "completed_at": "2024-12-28T18:42:58.858586Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:42:58.858770Z",
+          "completed_at": "2024-12-28T18:42:59.688336Z"
+        }
+      ],
+      "thread_id": "Thread-4 (worker)",
+      "execution_time": 0.9834837913513184,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77862-0003-0407-0000-c67d116d658a"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.historical_arr_threshold_fct_inc_monitization_0_25.fb137f32fd",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:42:58.909687Z",
+          "completed_at": "2024-12-28T18:42:58.914023Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:42:58.914301Z",
+          "completed_at": "2024-12-28T18:42:59.687371Z"
+        }
+      ],
+      "thread_id": "Thread-6 (worker)",
+      "execution_time": 0.9389927387237549,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77862-0003-043a-0000-c67d116d80c2"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_fct_inc_monitization_arr.aa069e12d9",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:42:59.492688Z",
+          "completed_at": "2024-12-28T18:42:59.503041Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:42:59.504203Z",
+          "completed_at": "2024-12-28T18:43:00.509791Z"
+        }
+      ],
+      "thread_id": "Thread-2 (worker)",
+      "execution_time": 1.1947526931762695,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-043a-0000-c67d116d80da"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_fct_inc_monitization_arr_rep.c2711540e8",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:42:59.696432Z",
+          "completed_at": "2024-12-28T18:42:59.705535Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:42:59.707389Z",
+          "completed_at": "2024-12-28T18:43:00.531303Z"
+        }
+      ],
+      "thread_id": "Thread-1 (worker)",
+      "execution_time": 0.9922680854797363,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-043a-0000-c67d116d80e6"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_fct_inc_monitization_date_period.72c7ede5ce",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:42:59.510278Z",
+          "completed_at": "2024-12-28T18:42:59.516262Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:42:59.516507Z",
+          "completed_at": "2024-12-28T18:43:00.527163Z"
+        }
+      ],
+      "thread_id": "Thread-3 (worker)",
+      "execution_time": 1.179452896118164,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-043a-0000-c67d116d80de"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_fct_inc_monitization_arr_sa.c6061316e1",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:42:59.698827Z",
+          "completed_at": "2024-12-28T18:42:59.705350Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:42:59.705704Z",
+          "completed_at": "2024-12-28T18:43:00.519886Z"
+        }
+      ],
+      "thread_id": "Thread-5 (worker)",
+      "execution_time": 0.9969220161437988,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-0501-0000-c67d116d75da"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_fct_inc_monitization_mrr.5496a6c840",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:42:59.529495Z",
+          "completed_at": "2024-12-28T18:42:59.682411Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:42:59.683795Z",
+          "completed_at": "2024-12-28T18:43:00.521277Z"
+        }
+      ],
+      "thread_id": "Thread-7 (worker)",
+      "execution_time": 1.1701760292053223,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-0501-0000-c67d116d75d6"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_fct_inc_monitization_arr_ss.4ca460fca3",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:42:59.701442Z",
+          "completed_at": "2024-12-28T18:42:59.709005Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:42:59.709650Z",
+          "completed_at": "2024-12-28T18:43:00.556340Z"
+        }
+      ],
+      "thread_id": "Thread-8 (worker)",
+      "execution_time": 1.0048370361328125,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-0501-0000-c67d116d75d2"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_fct_inc_monitization_mrr_rep.786922e677",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:42:59.839933Z",
+          "completed_at": "2024-12-28T18:42:59.844724Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:42:59.845006Z",
+          "completed_at": "2024-12-28T18:43:00.626314Z"
+        }
+      ],
+      "thread_id": "Thread-4 (worker)",
+      "execution_time": 0.9381592273712158,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-0501-0000-c67d116d75de"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_fct_inc_monitization_mrr_sa.49cc6077b3",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:42:59.851448Z",
+          "completed_at": "2024-12-28T18:42:59.855599Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:42:59.855886Z",
+          "completed_at": "2024-12-28T18:43:00.702585Z"
+        }
+      ],
+      "thread_id": "Thread-6 (worker)",
+      "execution_time": 1.0138869285583496,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-043a-0000-c67d116d80ea"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_fct_inc_monitization_mrr_ss.3072affb88",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:00.723596Z",
+          "completed_at": "2024-12-28T18:43:00.730577Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:00.739707Z",
+          "completed_at": "2024-12-28T18:43:01.502088Z"
+        }
+      ],
+      "thread_id": "Thread-5 (worker)",
+      "execution_time": 0.9202086925506592,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-0501-0000-c67d116d75fe"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.sum_aggregated_measure_fct_inc_monitization_date_period__arr_sa__date_period_current_date_and_date_period_2022_08_23_.e8d9dc0b90",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:00.779786Z",
+          "completed_at": "2024-12-28T18:43:00.783096Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:00.783329Z",
+          "completed_at": "2024-12-28T18:43:01.517117Z"
+        }
+      ],
+      "thread_id": "Thread-4 (worker)",
+      "execution_time": 0.8746449947357178,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-0501-0000-c67d116d7606"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.sum_aggregated_measure_fct_inc_monitization_date_period__mrr_rep__date_period_current_date_and_date_period_2016_01_25_.1653af6753",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:00.711755Z",
+          "completed_at": "2024-12-28T18:43:00.727651Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:00.730745Z",
+          "completed_at": "2024-12-28T18:43:01.515881Z"
+        }
+      ],
+      "thread_id": "Thread-1 (worker)",
+      "execution_time": 0.955697774887085,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-0501-0000-c67d116d7602"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.sum_aggregated_measure_fct_inc_monitization_date_period__arr__date_period_current_date_.1fd822479f",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:00.737576Z",
+          "completed_at": "2024-12-28T18:43:00.742707Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:00.745851Z",
+          "completed_at": "2024-12-28T18:43:01.547355Z"
+        }
+      ],
+      "thread_id": "Thread-8 (worker)",
+      "execution_time": 0.9496140480041504,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-0407-0000-c67d116d65e2"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.sum_aggregated_measure_fct_inc_monitization_date_period__mrr__date_period_current_date_.de436a9786",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:00.718098Z",
+          "completed_at": "2024-12-28T18:43:00.729961Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:00.732748Z",
+          "completed_at": "2024-12-28T18:43:01.524396Z"
+        }
+      ],
+      "thread_id": "Thread-3 (worker)",
+      "execution_time": 0.981626033782959,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-0501-0000-c67d116d75fa"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.sum_aggregated_measure_fct_inc_monitization_date_period__arr_rep__date_period_current_date_and_date_period_2016_01_25_.1c9403166c",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:00.704350Z",
+          "completed_at": "2024-12-28T18:43:00.723244Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:00.727880Z",
+          "completed_at": "2024-12-28T18:43:01.551952Z"
+        }
+      ],
+      "thread_id": "Thread-2 (worker)",
+      "execution_time": 0.9887516498565674,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-0407-0000-c67d116d65ea"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_fct_inc_monitization_sfdc_workspace_or_account_id.174663fba4",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:00.734996Z",
+          "completed_at": "2024-12-28T18:43:00.742558Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:00.744227Z",
+          "completed_at": "2024-12-28T18:43:01.575764Z"
+        }
+      ],
+      "thread_id": "Thread-7 (worker)",
+      "execution_time": 0.9801170825958252,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-043a-0000-c67d116d810e"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.sum_aggregated_measure_fct_inc_monitization_date_period__arr_ss__date_period_current_date_and_date_period_2015_07_31_.d0937fa0ff",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:00.866784Z",
+          "completed_at": "2024-12-28T18:43:00.872237Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:00.872540Z",
+          "completed_at": "2024-12-28T18:43:01.659008Z"
+        }
+      ],
+      "thread_id": "Thread-6 (worker)",
+      "execution_time": 0.9219317436218262,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-043a-0000-c67d116d8112"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.sum_aggregated_measure_fct_inc_monitization_date_period__mrr_sa__date_period_current_date_and_date_period_2022_08_23_.4163a91381",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:01.631566Z",
+          "completed_at": "2024-12-28T18:43:01.636869Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:01.637139Z",
+          "completed_at": "2024-12-28T18:43:02.357952Z"
+        }
+      ],
+      "thread_id": "Thread-5 (worker)",
+      "execution_time": 0.8867442607879639,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-0407-0000-c67d116d6602"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.sum_aggregated_measure_fct_inc_monitization_date_period__mrr_ss__date_period_current_date_and_date_period_2015_07_31_.da15450d07",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:02.533688Z",
+          "completed_at": "2024-12-28T18:43:02.539972Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:02.543256Z",
+          "completed_at": "2024-12-28T18:43:03.738016Z"
+        }
+      ],
+      "thread_id": "Thread-1 (worker)",
+      "execution_time": 1.3551909923553467,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-0501-0000-c67d116d761e"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.int_workspace_arr_expansion",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.int_workspace_arr_expansion"
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:02.526325Z",
+          "completed_at": "2024-12-28T18:43:02.539686Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:02.540270Z",
+          "completed_at": "2024-12-28T18:43:04.012677Z"
+        }
+      ],
+      "thread_id": "Thread-4 (worker)",
+      "execution_time": 1.6431500911712646,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-043a-0000-c67d116d8142"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.int_date_periods_with_arr_reset",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.int_date_periods_with_arr_reset"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:04.175290Z",
+          "completed_at": "2024-12-28T18:43:04.190956Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:04.191540Z",
+          "completed_at": "2024-12-28T18:43:05.027805Z"
+        }
+      ],
+      "thread_id": "Thread-3 (worker)",
+      "execution_time": 0.9949991703033447,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-043a-0000-c67d116d8166"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_int_date_periods_with_arr_reset_workspace_parent_and_date_period_key.e13ab7fa70",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:04.182267Z",
+          "completed_at": "2024-12-28T18:43:04.191267Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:04.194567Z",
+          "completed_at": "2024-12-28T18:43:05.041505Z"
+        }
+      ],
+      "thread_id": "Thread-2 (worker)",
+      "execution_time": 1.0305500030517578,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-0407-0000-c67d116d6622"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.unique_int_date_periods_with_arr_reset_workspace_parent_and_date_period_key.9813b4d023",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:05.218724Z",
+          "completed_at": "2024-12-28T18:43:05.227825Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:05.231766Z",
+          "completed_at": "2024-12-28T18:43:06.992542Z"
+        }
+      ],
+      "thread_id": "Thread-5 (worker)",
+      "execution_time": 1.975466012954712,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-043a-0000-c67d116d8176"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.fct_corporate_inc_consumption_limits",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.fct_corporate_inc_consumption_limits"
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:05.212710Z",
+          "completed_at": "2024-12-28T18:43:05.227512Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:05.228131Z",
+          "completed_at": "2024-12-28T18:43:07.236078Z"
+        }
+      ],
+      "thread_id": "Thread-6 (worker)",
+      "execution_time": 2.169095993041992,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-0501-0000-c67d116d7656"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.fct_account_edition_changes",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.fct_account_edition_changes"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:07.194030Z",
+          "completed_at": "2024-12-28T18:43:07.210695Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:07.214343Z",
+          "completed_at": "2024-12-28T18:43:08.017516Z"
+        }
+      ],
+      "thread_id": "Thread-1 (worker)",
+      "execution_time": 0.9680283069610596,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-043a-0000-c67d116d819a"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_fct_corporate_inc_consumption_limits_workspace_and_date_period_key.a142a43daf",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:07.201742Z",
+          "completed_at": "2024-12-28T18:43:07.210348Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:07.211240Z",
+          "completed_at": "2024-12-28T18:43:08.027947Z"
+        }
+      ],
+      "thread_id": "Thread-4 (worker)",
+      "execution_time": 0.9708840847015381,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-0501-0000-c67d116d7686"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.unique_fct_corporate_inc_consumption_limits_workspace_and_date_period_key.fe7e0c0cee",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:07.383092Z",
+          "completed_at": "2024-12-28T18:43:07.393713Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:07.394337Z",
+          "completed_at": "2024-12-28T18:43:08.162326Z"
+        }
+      ],
+      "thread_id": "Thread-3 (worker)",
+      "execution_time": 0.9065001010894775,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-043a-0000-c67d116d81a2"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_fct_account_edition_changes_unique_key.de7ef641cc",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:07.388014Z",
+          "completed_at": "2024-12-28T18:43:07.394049Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:07.397375Z",
+          "completed_at": "2024-12-28T18:43:08.197949Z"
+        }
+      ],
+      "thread_id": "Thread-2 (worker)",
+      "execution_time": 0.9497740268707275,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-043a-0000-c67d116d81a6"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.unique_fct_account_edition_changes_unique_key.653fe9a0cf",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:08.182747Z",
+          "completed_at": "2024-12-28T18:43:08.189932Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:08.194168Z",
+          "completed_at": "2024-12-28T18:43:09.891629Z"
+        }
+      ],
+      "thread_id": "Thread-6 (worker)",
+      "execution_time": 1.8662590980529785,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-043a-0000-c67d116d81b6"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.int_workspace_consumption_summary",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.int_workspace_consumption_summary"
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:08.334692Z",
+          "completed_at": "2024-12-28T18:43:08.339271Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:08.339665Z",
+          "completed_at": "2024-12-28T18:43:10.164740Z"
+        }
+      ],
+      "thread_id": "Thread-1 (worker)",
+      "execution_time": 1.9996848106384277,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-0407-0000-c67d116d6656"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.int_workspace_edition_summary",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.int_workspace_edition_summary"
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:08.175925Z",
+          "completed_at": "2024-12-28T18:43:08.189484Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:08.190895Z",
+          "completed_at": "2024-12-28T18:43:10.490029Z"
+        }
+      ],
+      "thread_id": "Thread-7 (worker)",
+      "execution_time": 2.469998836517334,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-0501-0000-c67d116d76aa"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.fct_blob_inc_promos_workspaces",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.fct_blob_inc_promos_workspaces"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:10.049559Z",
+          "completed_at": "2024-12-28T18:43:10.056057Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:10.059518Z",
+          "completed_at": "2024-12-28T18:43:10.794659Z"
+        }
+      ],
+      "thread_id": "Thread-3 (worker)",
+      "execution_time": 0.9481141567230225,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-0407-0000-c67d116d667e"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.unique_int_workspace_consumption_summary_corporate_workspace_id.6d488dcfd1",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:10.045200Z",
+          "completed_at": "2024-12-28T18:43:10.055490Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:10.056277Z",
+          "completed_at": "2024-12-28T18:43:10.874255Z"
+        }
+      ],
+      "thread_id": "Thread-8 (worker)",
+      "execution_time": 0.9683451652526855,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-0407-0000-c67d116d6682"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_int_workspace_consumption_summary_corporate_workspace_id.6ae11c68d2",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:10.346193Z",
+          "completed_at": "2024-12-28T18:43:10.355793Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:10.356278Z",
+          "completed_at": "2024-12-28T18:43:11.001957Z"
+        }
+      ],
+      "thread_id": "Thread-4 (worker)",
+      "execution_time": 0.794539213180542,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-0407-0000-c67d116d668a"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_int_workspace_edition_summary_corporate_workspace_id.0bf8385819",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:10.350388Z",
+          "completed_at": "2024-12-28T18:43:10.358860Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:10.359248Z",
+          "completed_at": "2024-12-28T18:43:11.353938Z"
+        }
+      ],
+      "thread_id": "Thread-6 (worker)",
+      "execution_time": 1.1488020420074463,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-0501-0000-c67d116d76da"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.unique_int_workspace_edition_summary_corporate_workspace_id.3fb1dad28d",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:10.650320Z",
+          "completed_at": "2024-12-28T18:43:10.660901Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:10.661443Z",
+          "completed_at": "2024-12-28T18:43:11.363333Z"
+        }
+      ],
+      "thread_id": "Thread-1 (worker)",
+      "execution_time": 0.854621171951294,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-0407-0000-c67d116d669e"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_fct_blob_inc_promos_workspaces_date_period_workspace_key.e8be122695",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:10.655433Z",
+          "completed_at": "2024-12-28T18:43:10.661217Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:10.664530Z",
+          "completed_at": "2024-12-28T18:43:11.378957Z"
+        }
+      ],
+      "thread_id": "Thread-2 (worker)",
+      "execution_time": 0.8566129207611084,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-0501-0000-c67d116d76de"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.unique_fct_blob_inc_promos_workspaces_date_period_workspace_key.1b0ff8ca1a",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:08.170048Z",
+          "completed_at": "2024-12-28T18:43:08.185951Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:08.186189Z",
+          "completed_at": "2024-12-28T18:43:12.228951Z"
+        }
+      ],
+      "thread_id": "Thread-5 (worker)",
+      "execution_time": 4.204149961471558,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-0407-0000-c67d116d665a"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.fct_corporate_large_inc_consumption_limits",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.fct_corporate_large_inc_consumption_limits"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:12.378487Z",
+          "completed_at": "2024-12-28T18:43:12.389895Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:12.393926Z",
+          "completed_at": "2024-12-28T18:43:13.260568Z"
+        }
+      ],
+      "thread_id": "Thread-8 (worker)",
+      "execution_time": 1.0342190265655518,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-043a-0000-c67d116d820a"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_fct_corporate_large_inc_consumption_limits_workspace_and_date_period_key.068caaeb1f",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:12.384037Z",
+          "completed_at": "2024-12-28T18:43:12.389477Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:12.390259Z",
+          "completed_at": "2024-12-28T18:43:13.405010Z"
+        }
+      ],
+      "thread_id": "Thread-4 (worker)",
+      "execution_time": 1.1661138534545898,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-0501-0000-c67d116d76f6"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.unique_fct_corporate_large_inc_consumption_limits_workspace_and_date_period_key.3a9e9f333d",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:11.506931Z",
+          "completed_at": "2024-12-28T18:43:11.515102Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:11.517310Z",
+          "completed_at": "2024-12-28T18:43:13.590897Z"
+        }
+      ],
+      "thread_id": "Thread-7 (worker)",
+      "execution_time": 2.2381062507629395,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-043a-0000-c67d116d81f6"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.fct_blob_promos_workspaces_overview",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.fct_blob_promos_workspaces_overview"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:13.757960Z",
+          "completed_at": "2024-12-28T18:43:13.763597Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:13.767678Z",
+          "completed_at": "2024-12-28T18:43:14.581435Z"
+        }
+      ],
+      "thread_id": "Thread-5 (worker)",
+      "execution_time": 0.9754962921142578,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-043a-0000-c67d116d8222"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.unique_fct_blob_promos_workspaces_overview_corporate_workspace_id.7f90a5a1e5",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:13.752115Z",
+          "completed_at": "2024-12-28T18:43:13.763199Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:13.763912Z",
+          "completed_at": "2024-12-28T18:43:14.720380Z"
+        }
+      ],
+      "thread_id": "Thread-3 (worker)",
+      "execution_time": 1.1479198932647705,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-0501-0000-c67d116d7706"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_fct_blob_promos_workspaces_overview_corporate_workspace_id.757b070cf4",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:13.549329Z",
+          "completed_at": "2024-12-28T18:43:13.560708Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:13.561063Z",
+          "completed_at": "2024-12-28T18:43:17.829819Z"
+        }
+      ],
+      "thread_id": "Thread-1 (worker)",
+      "execution_time": 4.425731897354126,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-0501-0000-c67d116d7702"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.fct_large_inc_monitization",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.fct_large_inc_monitization"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:18.020056Z",
+          "completed_at": "2024-12-28T18:43:18.033819Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:18.045821Z",
+          "completed_at": "2024-12-28T18:43:18.807391Z"
+        }
+      ],
+      "thread_id": "Thread-3 (worker)",
+      "execution_time": 0.9490878582000732,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-0501-0000-c67d116d771e"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.elementary_column_anomalies_fct_large_inc_monitization_sum__mrr_rep__2__date_period.8b3ddafb6a",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:18.009479Z",
+          "completed_at": "2024-12-28T18:43:18.030794Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:18.041739Z",
+          "completed_at": "2024-12-28T18:43:18.834858Z"
+        }
+      ],
+      "thread_id": "Thread-7 (worker)",
+      "execution_time": 1.012782096862793,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-0501-0000-c67d116d7722"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.elementary_column_anomalies_fct_large_inc_monitization_sum__arr_sa__2__date_period.ba7481e827",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:18.016576Z",
+          "completed_at": "2024-12-28T18:43:18.031104Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:18.043597Z",
+          "completed_at": "2024-12-28T18:43:18.910710Z"
+        }
+      ],
+      "thread_id": "Thread-5 (worker)",
+      "execution_time": 1.0645859241485596,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-043a-0000-c67d116d823e"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.elementary_column_anomalies_fct_large_inc_monitization_sum__mrr__2__date_period.8d64fbd5d9",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:17.997970Z",
+          "completed_at": "2024-12-28T18:43:18.030083Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:18.034065Z",
+          "completed_at": "2024-12-28T18:43:19.216044Z"
+        }
+      ],
+      "thread_id": "Thread-4 (worker)",
+      "execution_time": 1.3677031993865967,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-0501-0000-c67d116d7732"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.elementary_column_anomalies_fct_large_inc_monitization_sum__arr__2__date_period.15d0c43276",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:18.003903Z",
+          "completed_at": "2024-12-28T18:43:18.030308Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:18.036443Z",
+          "completed_at": "2024-12-28T18:43:19.291013Z"
+        }
+      ],
+      "thread_id": "Thread-2 (worker)",
+      "execution_time": 1.460709810256958,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-0407-0000-c67d116d66fa"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.elementary_column_anomalies_fct_large_inc_monitization_sum__arr_rep__2__date_period.fffa50f988",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:18.012945Z",
+          "completed_at": "2024-12-28T18:43:18.030573Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:18.038580Z",
+          "completed_at": "2024-12-28T18:43:19.290102Z"
+        }
+      ],
+      "thread_id": "Thread-6 (worker)",
+      "execution_time": 1.4685349464416504,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-0407-0000-c67d116d66f6"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.elementary_column_anomalies_fct_large_inc_monitization_sum__arr_ss__2__date_period.8bd739bc1a",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:18.025835Z",
+          "completed_at": "2024-12-28T18:43:18.036164Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:18.047876Z",
+          "completed_at": "2024-12-28T18:43:19.318442Z"
+        }
+      ],
+      "thread_id": "Thread-1 (worker)",
+      "execution_time": 1.5183498859405518,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-043a-0000-c67d116d8252"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.elementary_column_anomalies_fct_large_inc_monitization_sum__mrr_sa__2__date_period.8c0c5ca126",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:17.991903Z",
+          "completed_at": "2024-12-28T18:43:18.029308Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:18.031357Z",
+          "completed_at": "2024-12-28T18:43:19.408333Z"
+        }
+      ],
+      "thread_id": "Thread-8 (worker)",
+      "execution_time": 1.6222200393676758,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-0501-0000-c67d116d7736"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.dbt_utils_unique_combination_of_columns_fct_large_inc_monitization_date_period__sfdc_workspace_or_account_id__is_parent_account.0a13f71c8d",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:18.942385Z",
+          "completed_at": "2024-12-28T18:43:18.958255Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:18.959481Z",
+          "completed_at": "2024-12-28T18:43:19.706507Z"
+        }
+      ],
+      "thread_id": "Thread-3 (worker)",
+      "execution_time": 0.9844229221343994,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-0501-0000-c67d116d774e"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.elementary_column_anomalies_fct_large_inc_monitization_sum__mrr_ss__2__date_period.261cdc1fb4",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:19.002547Z",
+          "completed_at": "2024-12-28T18:43:19.006393Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:19.006657Z",
+          "completed_at": "2024-12-28T18:43:19.731689Z"
+        }
+      ],
+      "thread_id": "Thread-7 (worker)",
+      "execution_time": 0.9252562522888184,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-0407-0000-c67d116d670a"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.elementary_table_anomalies_fct_large_inc_monitization_freshness__date_period.77ea6689a7",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:19.055615Z",
+          "completed_at": "2024-12-28T18:43:19.061779Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:19.062112Z",
+          "completed_at": "2024-12-28T18:43:19.960175Z"
+        }
+      ],
+      "thread_id": "Thread-5 (worker)",
+      "execution_time": 1.0582659244537354,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-043a-0000-c67d116d8262"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.historical_arr_threshold_fct_large_inc_monitization_0_25.6df23d8a71",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:19.450622Z",
+          "completed_at": "2024-12-28T18:43:19.459546Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:19.459959Z",
+          "completed_at": "2024-12-28T18:43:20.235097Z"
+        }
+      ],
+      "thread_id": "Thread-2 (worker)",
+      "execution_time": 0.9322681427001953,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-043a-0000-c67d116d8266"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_fct_large_inc_monitization_sfdc_workspace_or_account_id.51759c7aa8",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:19.355976Z",
+          "completed_at": "2024-12-28T18:43:19.361014Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:19.361332Z",
+          "completed_at": "2024-12-28T18:43:20.311214Z"
+        }
+      ],
+      "thread_id": "Thread-4 (worker)",
+      "execution_time": 1.1178178787231445,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-0407-0000-c67d116d671a"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.not_null_fct_large_inc_monitization_date_period.432caafa9e",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:20.478891Z",
+          "completed_at": "2024-12-28T18:43:20.487767Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:20.488232Z",
+          "completed_at": "2024-12-28T18:43:22.324715Z"
+        }
+      ],
+      "thread_id": "Thread-6 (worker)",
+      "execution_time": 1.9930760860443115,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-043a-0000-c67d116d8276"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.int_workspace_monitization_metrics",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.int_workspace_monitization_metrics"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:22.476405Z",
+          "completed_at": "2024-12-28T18:43:22.481600Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:22.481884Z",
+          "completed_at": "2024-12-28T18:43:23.372284Z"
+        }
+      ],
+      "thread_id": "Thread-8 (worker)",
+      "execution_time": 1.0626850128173828,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-043a-0000-c67d116d8282"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.unique_int_workspace_monitization_metrics_sfdc_workspace_id.ce38e97246",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    },
+    {
+      "status": "success",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:43:23.544157Z",
+          "completed_at": "2024-12-28T18:43:23.565156Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:43:23.565534Z",
+          "completed_at": "2024-12-28T18:45:28.669402Z"
+        }
+      ],
+      "thread_id": "Thread-7 (worker)",
+      "execution_time": 305.266805171966553,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-0407-0000-c67d116d6732"
+      },
+      "message": "SUCCESS 1",
+      "failures": null,
+      "unique_id": "model.dbt_corporate.dim_crm_corporate_workspaces",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": "dbt_development_db.dbt_local.dim_crm_corporate_workspaces"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2024-12-28T18:45:28.814951Z",
+          "completed_at": "2024-12-28T18:45:28.823271Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2024-12-28T18:45:28.823816Z",
+          "completed_at": "2024-12-28T18:45:29.639135Z"
+        }
+      ],
+      "thread_id": "Thread-2 (worker)",
+      "execution_time": 0.9927120208740234,
+      "adapter_response": {
+        "_message": "SUCCESS 1",
+        "code": "SUCCESS",
+        "rows_affected": 1,
+        "query_id": "02g77863-0003-043a-0000-c67d116d829a"
+      },
+      "message": null,
+      "failures": 0,
+      "unique_id": "test.dbt_corporate.unique_dim_crm_corporate_workspaces_sfdc_workspace_id.89eea0c436",
+      "compiled": true,
+      "compiled_code": "",
+      "relation_name": null
+    }
+  ],
+  "elapsed_time": 157.5556139945984,
+  "args": {
+    "log_format": "default",
+    "invocation_command": "dbt build -m +dim_crm_corporate_workspaces --empty --exclude tag:dataplatform tag:inc_run dbt_snowflake_monitoring operational_tests config.materialized:snapshot",
+    "log_file_max_bytes": 10485760,
+    "version_check": true,
+    "require_explicit_package_overrides_for_builtin_materializations": false,
+    "populate_cache": true,
+    "print": true,
+    "exclude_resource_types": [],
+    "empty": true,
+    "warn_error_options": {
+      "include": [],
+      "exclude": []
+    },
+    "log_level": "info",
+    "log_format_file": "debug",
+    "static_parser": true,
+    "partial_parse_file_diff": true,
+    "use_colors_file": true,
+    "vars": {},
+    "exclude": [
+      "tag:dataplatform",
+      "tag:inc_run",
+      "dbt_snowflake_monitoring",
+      "operational_tests",
+      "config.materialized:snapshot"
+    ],
+    "profiles_dir": "/Users/beavis/.dbt",
+    "show": false,
+    "which": "build",
+    "quiet": false,
+    "defer": false,
+    "source_freshness_run_project_hooks": false,
+    "include_saved_query": false,
+    "export_saved_queries": false,
+    "log_path": "/Users/beavis/Documents/dbt_corporate/logs",
+    "project_dir": "/Users/beavis/Documents/dbt_corporate",
+    "enable_legacy_logger": false,
+    "introspect": true,
+    "partial_parse": true,
+    "strict_mode": false,
+    "favor_state": false,
+    "indirect_selection": "eager",
+    "log_level_file": "debug",
+    "resource_types": [],
+    "show_resource_report": false,
+    "write_json": true,
+    "cache_selected_only": false,
+    "use_colors": true,
+    "printer_width": 80,
+    "require_resource_names_without_spaces": false,
+    "select": [
+      "+dim_crm_corporate_workspaces"
+    ],
+    "macro_debugging": false,
+    "send_anonymous_usage_stats": false
+  }
+}
