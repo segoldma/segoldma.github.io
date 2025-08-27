@@ -102,7 +102,16 @@ function processRunResults(data) {
     const results = data.results;
     const generatedAt = data.metadata.generated_at;
 
-    const chartData = results.map(node => {
+    const chartData = results.filter(node => {
+        // Skip nodes without timing data
+        return node.timing && 
+               Array.isArray(node.timing) && 
+               node.timing.length >= 2 &&
+               node.timing[0] && 
+               node.timing[0].started_at &&
+               node.timing[1] && 
+               node.timing[1].completed_at;
+    }).map(node => {
         const compileStart = new Date(node.timing[0].started_at);
         const executeEnd = new Date(node.timing[1].completed_at);
         const runtimeSeconds = (executeEnd - compileStart) / 1000;
