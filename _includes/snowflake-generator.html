@@ -1,0 +1,203 @@
+<div class="snowflake-generator-container">
+    <div class="controls">
+        <div class="control-group">
+            <label for="rowCount">Number of Rows (1-50)</label>
+            <input type="number" id="rowCount" min="1" max="50" value="5">
+            <span class="hint">How many rows of mock data to generate</span>
+        </div>
+
+        <div class="control-group">
+            <label>Column Types</label>
+            <div class="checkbox-group">
+                <div class="checkbox-item">
+                    <input type="checkbox" id="includeName" checked>
+                    <label for="includeName">Name</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="includeNameId" checked>
+                    <label for="includeNameId">Name ID</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="includeDt" checked>
+                    <label for="includeDt">Date (dt)</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="includeMetrics" checked>
+                    <label for="includeMetrics">Metrics</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="includeJson" checked>
+                    <label for="includeJson">JSON</label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="button-group">
+        <button class="btn-primary" onclick="generateQuery()">Generate Query</button>
+        <button class="btn-secondary" onclick="clearOutput()">Clear</button>
+    </div>
+
+    <div class="output-container">
+        <button class="copy-btn" onclick="copyToClipboard()">Copy</button>
+        <textarea id="output" placeholder="Click 'Generate Query' to create mock data..."></textarea>
+    </div>
+</div>
+
+<script src="{{ '/assets/js/snowflake-generator.js' | relative_url }}"></script>
+
+<style>
+.snowflake-generator-container {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fafafa;
+}
+
+.controls {
+    display: grid;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.control-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.control-group label {
+    font-weight: 600;
+    color: #4a5568;
+    font-size: 14px;
+}
+
+.control-group input[type="number"] {
+    padding: 10px 12px;
+    border: 2px solid #e2e8f0;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: border-color 0.2s;
+}
+
+.control-group input[type="number"]:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+.checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 4px;
+}
+
+.checkbox-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.checkbox-item input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.checkbox-item label {
+    font-weight: 500;
+    cursor: pointer;
+    margin: 0;
+    font-size: 14px;
+}
+
+.button-group {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 24px;
+}
+
+.button-group button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.btn-primary {
+    background-color: #4CAF50;
+    color: white;
+    flex: 1;
+}
+
+.btn-primary:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(76, 175, 80, 0.4);
+}
+
+.btn-secondary {
+    background-color: #e2e8f0;
+    color: #4a5568;
+}
+
+.btn-secondary:hover {
+    background-color: #cbd5e0;
+}
+
+.output-container {
+    position: relative;
+}
+
+.output-container textarea {
+    width: 100%;
+    min-height: 300px;
+    padding: 16px;
+    border: 2px solid #e2e8f0;
+    border-radius: 6px;
+    font-family: 'Monaco', 'Menlo', 'Courier New', monospace;
+    font-size: 13px;
+    line-height: 1.5;
+    resize: vertical;
+}
+
+.output-container textarea:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+.copy-btn {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    padding: 8px 16px;
+    background: white;
+    border: 2px solid #4CAF50;
+    color: #4CAF50;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.copy-btn:hover {
+    background: #4CAF50;
+    color: white;
+}
+
+.copy-btn.copied {
+    background: #48bb78;
+    border-color: #48bb78;
+    color: white;
+}
+
+.hint {
+    color: #718096;
+    font-size: 12px;
+    margin-top: 4px;
+}
+</style>
