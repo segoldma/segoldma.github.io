@@ -12,9 +12,11 @@
     <div id="chart-container"></div>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+<!-- Pin exact versions: jsdelivr serves exact-version URLs as immutable, avoiding
+     stale/broken edge caches on floating major tags (see issue #33) -->
+<script src="https://cdn.jsdelivr.net/npm/vega@5.33.1"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@5.23.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.29.0"></script>
 <script src="https://d3js.org/d3.v7.min.js"></script>
 
 <!-- Include demo data -->
