@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Smaltimore · an illustrated map of Baltimore</title>
+    <style>
+      html, body, #map { margin: 0; height: 100%; background: #f1ece1; } /* paper, matches the drawing */
+      #credit {
+        position: fixed; right: 8px; bottom: 8px; padding: 3px 8px;
+        font: 11px/1.4 system-ui, sans-serif; color: #5a4a35; background: rgba(255, 252, 245, 0.8);
+        border-radius: 4px;
+      }
+      #msg { position: fixed; inset: 0; pointer-events: none; display: grid; place-items: center; color: #7a6a55; font: 14px system-ui, sans-serif; }
+    </style>
+    <script type="module" crossorigin src="./assets/index-CWtfU5PU.js"></script>
+  </head>
+  <body>
+    <div id="map"></div>
+    <div id="msg"></div>
+    <div id="credit">Map data ©2026 Google · Water: US Census TIGER · Boundaries: Open Baltimore</div>
+  </body>
+</html>
